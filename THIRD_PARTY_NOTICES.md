@@ -5,7 +5,7 @@ Game content (Gearbox / 2K) and DuncanFogg's files are covered in [CREDITS.md](C
 
 | Component | Used for | License | Where |
 | --- | --- | --- | --- |
-| [Three.js](https://threejs.org) r160 (and its GLTFLoader, OrbitControls, BufferGeometryUtils add-ons) | 3D weapon viewer | MIT | `app/web/vendor/three/` (license text: `LICENSE` in that folder) |
+| [Three.js](https://threejs.org) r160 (and its GLTFLoader, OrbitControls, BufferGeometryUtils, and EffectComposer/RenderPass/SSAOPass/OutputPass post-processing add-ons) | 3D weapon viewer, including its ambient-occlusion pass | MIT | `app/web/vendor/three/` (license text: `LICENSE` in that folder) |
 | [Oswald](https://github.com/googlefonts/OswaldFont) | Interface font | SIL Open Font License 1.1 | `app/web/vendor/fonts/` (license text: `OFL-Oswald.txt`) |
 | [IBM Plex Sans / Mono](https://github.com/IBM/plex) | Interface fonts | SIL Open Font License 1.1 | `app/web/vendor/fonts/` (license text: `OFL-IBM-Plex.txt`) |
 | [Electron](https://www.electronjs.org) 44.4.3 (includes Chromium) | The browser engine packed into the exe | MIT (Electron); Chromium's mixed licenses | Packed inside `GearCalculator.exe`; its `LICENSE` and `LICENSES.chromium.html` are unpacked beside it on first launch |
