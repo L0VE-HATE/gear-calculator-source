@@ -7,6 +7,12 @@ save editor.
 > Not affiliated with or endorsed by Gearbox Software or 2K. Borderlands and everything from the game
 > (names, art, data) belongs to its owners. See [CREDITS.md](CREDITS.md) for everyone whose work this stands on.
 
+<p align="center">
+  <a href="https://github.com/L0VE-HATE/gear-calculator/releases/latest/download/GearCalculator.exe">
+    <img src="https://img.shields.io/badge/Just_want_the_app%3F-Download_GearCalculator.exe-brightgreen?style=for-the-badge" alt="Download GearCalculator.exe" />
+  </a>
+</p>
+
 ## TL;DR
 
 - **Just want to use the app?** Skip this repo — download the ready-to-run exe from [gear-calculator](https://github.com/L0VE-HATE/gear-calculator) instead. This repo is the source code behind it.
