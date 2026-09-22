@@ -13,16 +13,10 @@ save editor.
 - Builds any Borderlands 1 weapon/shield from real parts and shows the real item card, stats, a 2D/3D picture, and a WillowTree#-style code.
 - Your own code to use/change freely (MIT); game content and DuncanFogg's files are credited separately, not covered by that license.
 
-## Use it (Windows)
+## Get it
 
-1. Download **GearCalculator.exe** from the **Releases** section of this repository (right-hand side of the page).
-2. Double-click it. The first launch unpacks itself once (a few seconds) into a hidden `.gearcalc` folder
-   next to the exe; every launch after that opens almost instantly.
-3. Click **Continue** on the credits screen, then build.
-
-Nothing is installed, nothing is written to the registry, and it does not need the game or an internet connection.
-The exe is not code-signed, so Windows may show a "SmartScreen" warning the first time: choose
-**More info → Run anyway**.
+This repo is the source code only - there's no exe here. Grab the ready-to-run Windows app from
+**[gear-calculator](https://github.com/L0VE-HATE/gear-calculator)**, which has the download and setup steps.
 
 **Using it:** pick **Weapons** or **Shields**, choose a type, then choose parts from the dropdowns or the part
 tiles. The item card updates as you go. The **Code** tab holds the item code: copy it into WillowTree#'s item
@@ -94,6 +88,12 @@ cover the Borderlands game content (Gearbox Software / 2K), DuncanFogg's origina
 software and fonts listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), which stay under their own
 owners' rights. Thanks to DuncanFogg, WillowTree#, the Borderlands 1 Modding wiki, the Borderlands Wiki and
 the makers of the tools this uses: see [CREDITS.md](CREDITS.md).
+
+## Contributing
+
+Found bad data or a math mistake? Open an issue. Pull requests are welcome - if you're correcting something
+about how the game actually behaves, please cite where that came from (PartsDb.txt, a wiki page, in-game
+testing, etc.), the same standard the existing data was held to.
 
 ## Rights holders
 
