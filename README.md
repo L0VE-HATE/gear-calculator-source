@@ -38,6 +38,9 @@ editor, or paste a code there to load it back. The Save File Armory (below the c
 - **Some colours are approximate.** Most weapon skins use the game's real material colours, but a few (Kyros' Power,
   Eridian materials, some promo weapons) fall back to estimated colours. The 3D lighting was tuned by eye, not
   compared against the game.
+- **2D card color placement:** most weapons' 3D models match the real look closely (aside from lighting/texture
+  grain); the 2D card's colors are usually right, but not always mapped to the correct part of the gun - a
+  skin's two colors can end up swapped between parts. Not yet fixed.
 - **Critical damage** when a crit-boosting part is on a weapon that already has a type bonus is calculated by
   multiplying the two; whether the game adds or multiplies them was not verified.
 - **The Sanity Check is a guide, not a guarantee.** Some combinations (for example Eridian barrels borrowed from
