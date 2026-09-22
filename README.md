@@ -7,6 +7,12 @@ save editor.
 > Not affiliated with or endorsed by Gearbox Software or 2K. Borderlands and everything from the game
 > (names, art, data) belongs to its owners. See [CREDITS.md](CREDITS.md) for everyone whose work this stands on.
 
+## TL;DR
+
+- **Just want to use the app?** Skip this repo — download the ready-to-run exe from [gear-calculator](https://github.com/L0VE-HATE/gear-calculator) instead. This repo is the source code behind it.
+- Builds any Borderlands 1 weapon/shield from real parts and shows the real item card, stats, a 2D/3D picture, and a WillowTree#-style code.
+- Your own code to use/change freely (MIT); game content and DuncanFogg's files are credited separately, not covered by that license.
+
 ## Use it (Windows)
 
 1. Download **GearCalculator.exe** from the **Releases** section of this repository (right-hand side of the page).
