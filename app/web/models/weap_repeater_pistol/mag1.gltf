@@ -1,0 +1,195 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1590",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "mag1",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "b_body",
+      "children" : [ 2, 3, 4, 5, 6, 7 ],
+      "translation" : [ 0, -3.31338e-10, 2.38419e-09 ],
+      "rotation" : [ 0.5, -0.5, 0.5, 0.5 ]
+    },
+    {
+      "name" : "b_mag",
+      "translation" : [ 0.126279, -2.35873e-08, 0.103332 ],
+      "rotation" : [ -8.02846e-09, -0.21644, 4.04186e-08, -0.976296 ]
+    },
+    {
+      "name" : "b_action",
+      "translation" : [ 0.0533574, -6.39481e-09, -0.05495 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "b_trigger",
+      "translation" : [ 0.0183272, -4.12413e-09, -0.0191211 ],
+      "rotation" : [ 5.0091e-09, 0.751732, 3.69269e-08, -0.659469 ]
+    },
+    {
+      "name" : "b_muzzle_flash_1",
+      "translation" : [ -0.217909, 4.7494e-08, -0.0556401 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "b_muzzle_flash_2",
+      "translation" : [ -0.237819, 4.89971e-08, -0.0556401 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "b_muzzle_flash_3",
+      "translation" : [ -0.268105, 5.60521e-08, -0.0556401 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "mat_repeater_pistol_INST",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "mag1"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "mag1.bin",
+      "byteLength" : 3520
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 448
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 448,
+      "byteLength" : 192
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 640,
+      "byteLength" : 576
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1216,
+      "byteLength" : 576
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1792,
+      "byteLength" : 768
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 2560,
+      "byteLength" : 384
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 2944,
+      "byteLength" : 192
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 3136,
+      "byteLength" : 384
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 7,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 96,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.0081553, -0.116687, 0.0626269 ],
+      "max" : [ 0.00815536, 0.00661331, 0.146562 ],
+      "componentType" : 5126,
+      "count" : 48,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 48,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 48,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 48,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 48,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 48,
+      "type" : "VEC2"
+    }
+  ]
+}

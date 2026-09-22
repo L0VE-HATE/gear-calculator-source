@@ -1,0 +1,49 @@
+# ---- The finished program -------------------------------------------------------------
+# The exe is ~217 MB. GitHub refuses single files over 100 MB in a normal upload, so it is
+# published separately as a GitHub "Release" download instead of living in the repository.
+GearCalculator.exe
+
+# ---- Created when the exe or a build runs ---------------------------------------------
+.gearcalc/
+userdata/
+gc_build_tmp/
+out/
+app/build/
+app/dist/
+
+# ---- Python ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+
+# ---- Editors, operating system, logs, temp ----------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# ---- Local assistant / tooling settings (never public) ----------------------------------
+.claude/
+CLAUDE.md
+
+# ---- Scratch left over from development (kept on the PC, not published) -----------------
+# Loose screenshots, colour swatches and test files in the top of extracted/
+/extracted/*.png
+/extracted/*.jpg
+/extracted/test.html
+/extracted/test_assemble.py
+# A duplicate download of UModel (the unpacked copy in tools/umodel/ is kept)
+/tools/umodel_win32.zip
+
+# FFDec export of the old calculator's Flash-framework skin graphics: unused, and the folder names are
+# so long that Windows cannot clone them (path limit 260). The rest of ffdec_export/ is kept.
+/extracted/duncanfogg_original/ffdec_export/sprites/
+# Decompiled third-party frameworks that were inside the old calculator (Adobe Flex "mx"/"flashx", a skin
+# theme, and a zip library). Not Duncan's code and not used here. His own code (scripts/gearcalc/) is kept.
+/extracted/duncanfogg_original/ffdec_export/scripts/mx/
+/extracted/duncanfogg_original/ffdec_export/scripts/flashx/
+/extracted/duncanfogg_original/ffdec_export/scripts/zen/
+/extracted/duncanfogg_original/ffdec_export/scripts/nochump/

@@ -1,0 +1,1696 @@
+<?xml version="1.0"?><!DOCTYPE ImageBin SYSTEM "ImageBinDef.dtd">
+
+<ImageBin>
+	<RootPath>assets/ScaledParts/</RootPath>
+	<PriorityManager>
+		<Target>rifle</Target>
+		<Rule>
+			<PartType>Accessory</PartType>
+			<Priority>3</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Body</PartType>
+			<Priority>12</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Barrel</PartType>
+			<Priority>13</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Stock</PartType>
+			<Priority>10</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Magazine</PartType>
+			<Priority>20</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Sight</PartType>
+			<Priority>5</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Grip</PartType>
+			<Priority>15</Priority>
+		</Rule>
+	</PriorityManager>
+	<PriorityManager>
+		<Target>repeater</Target>
+		<Rule>
+			<PartType>Accessory</PartType>
+			<Priority>3</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Body</PartType>
+			<Priority>12</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Barrel</PartType>
+			<Priority>8</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Action</PartType>
+			<Priority>10</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Magazine</PartType>
+			<Priority>7</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Sight</PartType>
+			<Priority>5</Priority>
+		</Rule>
+		<Rule>
+			<PartType>Grip</PartType>
+			<Priority>15</Priority>
+		</Rule>
+	</PriorityManager>
+	<Folder>
+		<Name>Shotgun</Name>
+		<Width>260</Width>
+		<Image>
+			<Def>a007</Def>
+			<Def>a001</Def>
+			<File>acc1.png</File>
+		</Image>
+		<Image>
+			<Def>a008</Def>
+			<Def>a002</Def>
+			<File>acc2.png</File>
+		</Image>
+		<Image>
+			<Def>a009</Def>
+			<Def>a010</Def>
+			<Def>a003</Def>
+			<EleMask>acc3-mask.png</EleMask>
+			<File>acc3.png</File>
+		</Image>
+		<Image>
+			<Def>a011</Def>
+			<Def>a012</Def>
+			<Def>a004</Def>
+			<File>acc4.png</File>
+		</Image>
+		<Image>
+			<Def>a013</Def>
+			<Def>a014</Def>
+			<Def>a015</Def>
+			<Def>a005</Def>
+			<Def>a006</Def>
+			<EleMask>acc5-mask.png</EleMask>
+			<File>acc5.png</File>
+		</Image>
+		<Image>
+			<Def>b001</Def>
+			<File>barrel1.png</File>
+		</Image>
+		<Image>
+			<Def>b002</Def>
+			<Def>b003</Def>
+			<Def>u005</Def>
+			<Def>u007</Def>
+			<File>barrel2.png</File>
+		</Image>
+		<Image>
+			<Def>b004</Def>
+			<Def>b005</Def>
+			<Def>u043</Def>
+			<Def>u001</Def>
+			<Def>u003</Def>
+			<EleMask>barrel3-mask.png</EleMask>
+			<File>barrel3.png</File>
+		</Image>
+		<Image>
+			<Def>b006</Def>
+			<Def>b009</Def>
+			<EleMask>barrel4-mask.png</EleMask>
+			<File>barrel4.png</File>
+		</Image>
+		<Image>
+			<Def>b007</Def>
+			<Def>b008</Def>
+			<File>barrel5.png</File>
+		</Image>
+		<Image>
+			<Def>f001</Def>
+			<File>body1.png</File>
+		</Image>
+		<Image>
+			<Def>f002</Def>
+			<File>body2.png</File>
+		</Image>
+		<Image>
+			<Def>f003</Def>
+			<Def>f004</Def>
+			<EleMask>body3-mask.png</EleMask>
+			<File>body3.png</File>
+		</Image>
+		<Image>
+			<Def>f005</Def>
+			<File>body4.png</File>
+		</Image>
+		<Image>
+			<Def>f006</Def>
+			<File>body5.png</File>
+		</Image>
+		<Image>
+			<Def>g001</Def>
+			<Def>g002</Def>
+			<File>grip1.png</File>
+		</Image>
+		<Image>
+			<Def>g003</Def>
+			<Def>g004</Def>
+			<Def>g005</Def>
+			<File>grip2.png</File>
+		</Image>
+		<Image>
+			<Def>g006</Def>
+			<Def>g007</Def>
+			<Def>g008</Def>
+			<File>grip3.png</File>
+		</Image>
+		<Image>
+			<Def>g009</Def>
+			<File>grip4.png</File>
+		</Image>
+		<Image>
+			<Def>g010</Def>
+			<File>grip5.png</File>
+		</Image>
+		<Image>
+			<Def>z001</Def>
+			<File>sight1.png</File>
+		</Image>
+		<Image>
+			<Def>z002</Def>
+			<File>sight2.png</File>
+		</Image>
+		<Image>
+			<Def>z003</Def>
+			<EleMask>sight3-mask.png</EleMask>
+			<File>sight3.png</File>
+		</Image>
+		<Image>
+			<Def>z004</Def>
+			<File>sight4.png</File>
+		</Image>
+		<Image>
+			<Def>z005</Def>
+			<File>sight5.png</File>
+		</Image>
+		<Image>
+			<Def>m003</Def>
+			<File>mag1.png</File>
+		</Image>
+		<Image>
+			<Def>m004</Def>
+			<Def>m005</Def>
+			<File>mag2.png</File>
+		</Image>
+		<Image>
+			<Def>m001</Def>
+			<Def>m002</Def>
+			<EleMask>mag3-mask.png</EleMask>
+			<File>mag3.png</File>
+		</Image>
+		<Image>
+			<Def>m006</Def>
+			<File>mag4.png</File>
+		</Image>
+		<Image>
+			<Def>m007</Def>
+			<EleMask>mag5-mask.png</EleMask>
+			<File>mag5.png</File>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>SMG</Name>
+		<Image>
+			<Def>a046</Def>
+			<File>acc1.png</File>
+		</Image>
+		<Image>
+			<Def>a047</Def>
+			<Def>a048</Def>
+			<Def>u060</Def>
+			<File>acc2.png</File>
+		</Image>
+		<Image>
+			<Def>a049</Def>
+			<Def>a050</Def>
+			<Def>u062</Def>
+			<EleMask>acc3-mask.png</EleMask>
+			<File>acc3.png</File>
+		</Image>
+		<Image>
+			<Def>a051</Def>
+			<File>acc4.png</File>
+		</Image>
+		<Image>
+			<Def>a052</Def>
+			<Def>a053</Def>
+			<Def>a054</Def>
+			<File>acc5.png</File>
+		</Image>
+		<Image>
+			<Def>b025</Def>
+			<File>barrel1.png</File>
+		</Image>
+		<Image>
+			<Def>b026</Def>
+			<Def>b027</Def>
+			<File>barrel2.png</File>
+		</Image>
+		<Image>
+			<Def>b028</Def>
+			<Def>b029</Def>
+			<EleMask>barrel3-mask.png</EleMask>
+			<File>barrel3.png</File>
+		</Image>
+		<Image>
+			<Def>b030</Def>
+			<EleMask>barrel4-mask.png</EleMask>
+			<File>barrel4.png</File>
+		</Image>
+		<Image>
+			<Def>b031</Def>
+			<Def>b032</Def>
+			<File>barrel5.png</File>
+		</Image>
+		<Image>
+			<Def>f019</Def>
+			<File>body1.png</File>
+		</Image>
+		<Image>
+			<Def>f020</Def>
+			<File>body2.png</File>
+		</Image>
+		<Image>
+			<Def>f021</Def>
+			<Def>f022</Def>
+			<EleMask>body3-mask.png</EleMask>
+			<File>body3.png</File>
+		</Image>
+		<Image>
+			<Def>f023</Def>
+			<File>body4.png</File>
+		</Image>
+		<Image>
+			<Def>f024</Def>
+			<File>body5.png</File>
+		</Image>
+		<Image>
+			<Def>g029</Def>
+			<File>grip1.png</File>
+		</Image>
+		<Image>
+			<Def>g030</Def>
+			<File>grip2.png</File>
+		</Image>
+		<Image>
+			<Def>g031</Def>
+			<File>grip3.png</File>
+		</Image>
+		<Image>
+			<Def>g032</Def>
+			<Def>g033</Def>
+			<File>grip4.png</File>
+		</Image>
+		<Image>
+			<Def>g034</Def>
+			<File>grip5.png</File>
+		</Image>
+		<Image>
+			<Def>m020</Def>
+			<File>mag1.png</File>
+		</Image>
+		<Image>
+			<Def>m021</Def>
+			<File>mag2.png</File>
+		</Image>
+		<Image>
+			<Def>m022</Def>
+			<EleMask>mag3-mask.png</EleMask>
+			<File>mag3.png</File>
+		</Image>
+		<Image>
+			<Def>m023</Def>
+			<Def>m024</Def>
+			<File>mag4.png</File>
+		</Image>
+		<Image>
+			<Def>m025</Def>
+			<Def>u026</Def>
+			<File>mag5.png</File>
+		</Image>
+		<Image>
+			<Def>z021</Def>
+			<File>sight1.png</File>
+		</Image>
+		<Image>
+			<Def>z022</Def>
+			<File>sight2.png</File>
+		</Image>
+		<Image>
+			<Def>z023</Def>
+			<EleMask>sight3-mask.png</EleMask>
+			<File>sight3.png</File>
+		</Image>
+		<Image>
+			<Def>z024</Def>
+			<Def>u028</Def>
+			<File>sight4.png</File>
+		</Image>
+		<Image>
+			<Def>z025</Def>
+			<File>sight5.png</File>
+		</Image>
+		<Image>
+			<Def>s010</Def>
+			<File>stock1.png</File>
+		</Image>
+		<Image>
+			<Def>s011</Def>
+			<File>stock2.png</File>
+		</Image>
+		<Image>
+			<Def>s012</Def>
+			<EleMask>stock3-mask.png</EleMask>
+			<File>stock3.png</File>
+		</Image>
+		<Image>
+			<Def>s013</Def>
+			<File>stock4.png</File>
+		</Image>
+		<Image>
+			<Def>s014</Def>
+			<File>stock5.png</File>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>Repeater</Name>
+		<Image>
+			<Def>a029</Def>
+			<Def>a030</Def>
+			<Def>a043</Def>
+			<File>acc1.png</File>
+		</Image>
+		<Image>
+			<Def>a031</Def>
+			<Def>a032</Def>
+			<Def>a044</Def>
+			<Def>a045</Def>
+			<File>acc2.png</File>
+		</Image>
+		<Image>
+			<Def>a033</Def>
+			<File>acc3.png</File>
+		</Image>
+		<Image>
+			<Def>a034</Def>
+			<Def>a035</Def>
+			<File>acc4.png</File>
+		</Image>
+		<Image>
+			<Def>a036</Def>
+			<Def>a037</Def>
+			<Def>a038</Def>
+			<Def>a039</Def>
+			<Def>a040</Def>
+			<Def>a041</Def>
+			<Def>a047</Def>
+			<Def>u020</Def>
+			<EleMask>acc5-mask.png</EleMask>
+			<File>acc5.png</File>
+		</Image>
+		<Image>
+			<Def>e001</Def>
+			<File>action1.png</File>
+		</Image>
+		<Image>
+			<Def>e002</Def>
+			<File>action2.png</File>
+		</Image>
+		<Image>
+			<Def>e003</Def>
+			<File>action3.png</File>
+		</Image>
+		<Image>
+			<Def>e004</Def>
+			<File>action4.png</File>
+		</Image>
+		<Image>
+			<Def>e005</Def>
+			<File>action5.png</File>
+		</Image>
+		<Image>
+			<Def>b017</Def>
+			<Def>u049</Def>
+			<File>barrel0.png</File>
+		</Image>
+		<Image>
+			<Def>b018</Def>
+			<Def>u016</Def>
+			<File>barrel1.png</File>
+		</Image>
+		<Image>
+			<Def>b019</Def>
+			<File>barrel2.png</File>
+		</Image>
+		<Image>
+			<Def>b020</Def>
+			<File>barrel3.png</File>
+		</Image>
+		<Image>
+			<Def>b021</Def>
+			<Def>b022</Def>
+			<Def>u018</Def>
+			<Def>u045</Def>
+			<EleMask>barrel4-mask.png</EleMask>
+			<File>barrel4.png</File>
+		</Image>
+		<Image>
+			<Def>b023</Def>
+			<Def>b024</Def>
+			<Def>u014</Def>
+			<Def>u051</Def>
+			<File>barrel5.png</File>
+		</Image>
+		<Image>
+			<Def>f013</Def>
+			<File>body1.png</File>
+		</Image>
+		<Image>
+			<Def>f014</Def>
+			<File>body2.png</File>
+		</Image>
+		<Image>
+			<Def>f015</Def>
+			<Def>f016</Def>
+			<EleMask>body3-mask.png</EleMask>
+			<File>body3.png</File>
+		</Image>
+		<Image>
+			<Def>f017</Def>
+			<File>body4.png</File>
+		</Image>
+		<Image>
+			<Def>f018</Def>
+			<File>body5.png</File>
+		</Image>
+		<Image>
+			<Def>g017</Def>
+			<File>grip1.png</File>
+		</Image>
+		<Image>
+			<Def>g018</Def>
+			<Def>g019</Def>
+			<Def>g026</Def>
+			<File>grip2.png</File>
+		</Image>
+		<Image>
+			<Def>g020</Def>
+			<Def>g021</Def>
+			<Def>g022</Def>
+			<Def>g027</Def>
+			<File>grip3.png</File>
+		</Image>
+		<Image>
+			<Def>g023</Def>
+			<Def>g024</Def>
+			<File>grip4.png</File>
+		</Image>
+		<Image>
+			<Def>g025</Def>
+			<Def>g028</Def>
+			<File>grip5.png</File>
+		</Image>
+		<Image>
+			<Def>m013</Def>
+			<File>mag1.png</File>
+		</Image>
+		<Image>
+			<Def>m014</Def>
+			<Def>m015</Def>
+			<Def>m017</Def>
+			<File>mag2.png</File>
+		</Image>
+		<Image>
+			<Def>m016</Def>
+			<Def>m018</Def>
+			<Def>m019</Def>
+			<File>mag3.png</File>
+		</Image>
+		<Image>
+			<Def>z013</Def>
+			<File>sight1.png</File>
+		</Image>
+		<Image>
+			<Def>z014</Def>
+			<File>sight2.png</File>
+		</Image>
+		<Image>
+			<Def>z015</Def>
+			<File>sight3.png</File>
+		</Image>
+		<Image>
+			<Def>z016</Def>
+			<File>sight4.png</File>
+		</Image>
+		<Image>
+			<Def>z017</Def>
+			<Def>z018</Def>
+			<File>sight5.png</File>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>Rifle</Name>
+		<Image>
+			<Def>a077</Def>
+			<Def>a078</Def>
+			<File>acc1.png</File>
+		</Image>
+		<Image>
+			<Def>a071</Def>
+			<File>acc2.png</File>
+		</Image>
+		<Image>
+			<Def>a072</Def>
+			<Def>a073</Def>
+			<EleMask>acc3-mask.png</EleMask>
+			<File>acc3.png</File>
+		</Image>
+		<Image>
+			<Def>a074</Def>
+			<Def>u066</Def>
+			<Def>u068</Def>
+			<Def>a079</Def>
+			<File>acc4.png</File>
+		</Image>
+		<Image>
+			<Def>a075</Def>
+			<Def>a076</Def>
+			<Def>a080</Def>
+			<EleMask>acc5-mask.png</EleMask>
+			<File>acc5.png</File>
+		</Image>
+		<Image>
+			<Def>b041</Def>
+			<Def>b042</Def>
+			<File>barrel1.png</File>
+		</Image>
+		<Image>
+			<Def>b043</Def>
+			<File>barrel2.png</File>
+		</Image>
+		<Image>
+			<Def>b044</Def>
+			<EleMask>barrel3-mask.png</EleMask>
+			<File>barrel3.png</File>
+		</Image>
+		<Image>
+			<Def>b045</Def>
+			<Def>b048</Def>
+			<EleMask>barrel4-mask.png</EleMask>
+			<File>barrel4.png</File>
+		</Image>
+		<Image>
+			<Def>b046</Def>
+			<Def>b047</Def>
+			<Def>u070</Def>
+			<File>barrel5.png</File>
+		</Image>
+		<Image>
+			<Def>f030</Def>
+			<File>body1.png</File>
+		</Image>
+		<Image>
+			<Def>f031</Def>
+			<File>body2.png</File>
+		</Image>
+		<Image>
+			<Def>f032</Def>
+			<EleMask>body3-mask.png</EleMask>
+			<File>body3.png</File>
+		</Image>
+		<Image>
+			<Def>f033</Def>
+			<Def>f034</Def>
+			<File>body4.png</File>
+		</Image>
+		<Image>
+			<Def>f035</Def>
+			<File>body5.png</File>
+		</Image>
+		<Image>
+			<Def>g043</Def>
+			<File>grip1.png</File>
+		</Image>
+		<Image>
+			<Def>g044</Def>
+			<File>grip2.png</File>
+		</Image>
+		<Image>
+			<Def>g045</Def>
+			<Def>g057</Def>
+			<File>grip3.png</File>
+		</Image>
+		<Image>
+			<Def>g046</Def>
+			<Def>g056</Def>
+			<File>grip4.png</File>
+		</Image>
+		<Image>
+			<Def>g047</Def>
+			<Def>g048</Def>
+			<File>grip5.png</File>
+		</Image>
+		<Image>
+			<Def>m032</Def>
+			<Def>m033</Def>
+			<File>mag1.png</File>
+		</Image>
+		<Image>
+			<Def>m036</Def>
+			<File>mag2.png</File>
+		</Image>
+		<Image>
+			<Def>m034</Def>
+			<Def>m035</Def>
+			<File>mag3.png</File>
+		</Image>
+		<Image>
+			<Def>m038</Def>
+			<Def>m039</Def>
+			<EleMask>mag5-mask.png</EleMask>
+			<File>mag5.png</File>
+		</Image>
+		<Image>
+			<Def>m037</Def>
+			<Def>u036</Def>
+			<File>mag4.png</File>
+		</Image>
+		<Image>
+			<Def>z033</Def>
+			<Def>z039</Def>
+			<File>sight1.png</File>
+		</Image>
+		<Image>
+			<Def>z034</Def>
+			<Def>z040</Def>
+			<File>sight2.png</File>
+		</Image>
+		<Image>
+			<Def>z035</Def>
+			<EleMask>sight3-mask.png</EleMask>
+			<File>sight3.png</File>
+		</Image>
+		<Image>
+			<Def>z036</Def>
+			<Def>u034</Def>
+			<File>sight4.png</File>
+		</Image>
+		<Image>
+			<Def>z037</Def>
+			<Def>u042</Def>
+			<File>sight5.png</File>
+		</Image>
+		<Image>
+			<Def>s021</Def>
+			<File>stock1.png</File>
+		</Image>
+		<Image>
+			<Def>s022</Def>
+			<File>stock2.png</File>
+		</Image>
+		<Image>
+			<Def>s023</Def>
+			<EleMask>stock3-mask.png</EleMask>
+			<File>stock3.png</File>
+		</Image>
+		<Image>
+			<Def>s024</Def>
+			<File>stock4.png</File>
+		</Image>
+		<Image>
+			<Def>s025</Def>
+			<File>stock5.png</File>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>Revolver</Name>
+		<Image>
+			<Def>a017</Def>
+			<Def>a018</Def>
+			<File>acc1.png</File>
+		</Image>
+		<Image>
+			<Def>a019</Def>
+			<File>acc2.png</File>
+		</Image>
+		<Image>
+			<Def>a020</Def>
+			<Def>a021</Def>
+			<Def>a022</Def>
+			<EleMask>acc3-mask.png</EleMask>
+			<File>acc3.png</File>
+		</Image>
+		<Image>
+			<Def>a023</Def>
+			<File>acc4.png</File>
+		</Image>
+		<Image>
+			<Def>a024</Def>
+			<Def>a025</Def>
+			<Def>a026</Def>
+			<Def>u009</Def>
+			<Def>u054</Def>
+			<EleMask>acc5-mask.png</EleMask>
+			<File>acc5.png</File>
+		</Image>
+		<Image>
+			<Def>b010</Def>
+			<File>barrel1.png</File>
+		</Image>
+		<Image>
+			<Def>b011</Def>
+			<File>barrel2.png</File>
+		</Image>
+		<Image>
+			<Def>b012</Def>
+			<Def>u010</Def>
+			<EleMask>barrel3-mask.png</EleMask>
+			<File>barrel3.png</File>
+		</Image>
+		<Image>
+			<Def>b013</Def>
+			<Def>b014</Def>
+			<EleMask>barrel4-mask.png</EleMask>
+			<File>barrel4.png</File>
+		</Image>
+		<Image>
+			<Def>b015</Def>
+			<Def>b016</Def>
+			<File>barrel5.png</File>
+		</Image>
+		<Image>
+			<Def>f007</Def>
+			<File>body1.png</File>
+		</Image>
+		<Image>
+			<Def>f008</Def>
+			<File>body2.png</File>
+		</Image>
+		<Image>
+			<Def>f009</Def>
+			<Def>f010</Def>
+			<EleMask>body3-mask.png</EleMask>
+			<File>body3.png</File>
+		</Image>
+		<Image>
+			<Def>f011</Def>
+			<File>body4.png</File>
+		</Image>
+		<Image>
+			<Def>f012</Def>
+			<File>body5.png</File>
+		</Image>
+		<Image>
+			<Def>g011</Def>
+			<File>grip1.png</File>
+		</Image>
+		<Image>
+			<Def>g012</Def>
+			<File>grip2.png</File>
+		</Image>
+		<Image>
+			<Def>g013</Def>
+			<Def>g014</Def>
+			<File>grip3.png</File>
+		</Image>
+		<Image>
+			<Def>g015</Def>
+			<File>grip4.png</File>
+		</Image>
+		<Image>
+			<Def>g016</Def>
+			<Def>u012</Def>
+			<File>grip5.png</File>
+		</Image>
+		<Image>
+			<Def>m008</Def>
+			<File>mag1.png</File>
+		</Image>
+		<Image>
+			<Def>m009</Def>
+			<File>mag2.png</File>
+		</Image>
+		<Image>
+			<Def>m010</Def>
+			<EleMask>mag3-mask.png</EleMask>
+			<File>mag3.png</File>
+		</Image>
+		<Image>
+			<Def>m011</Def>
+			<File>mag4.png</File>
+		</Image>
+		<Image>
+			<Def>m012</Def>
+			<EleMask>mag5-mask.png</EleMask>
+			<File>mag5.png</File>
+		</Image>
+		<Image>
+			<Def>z007</Def>
+			<File>sight1.png</File>
+		</Image>
+		<Image>
+			<Def>z008</Def>
+			<File>sight2.png</File>
+		</Image>
+		<Image>
+			<Def>z009</Def>
+			<EleMask>sight3-mask.png</EleMask>
+			<File>sight3.png</File>
+		</Image>
+		<Image>
+			<Def>z010</Def>
+			<Def>u065</Def>
+			<File>sight4.png</File>
+		</Image>
+		<Image>
+			<Def>z011</Def>
+			<File>sight5.png</File>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>Sniper</Name>
+		<Image>
+			<Def>a057</Def>
+			<Def>a065</Def>
+			<File>acc1.png</File>
+		</Image>
+		<Image>
+			<Def>a058</Def>
+			<Def>a059</Def>
+			<Def>a060</Def>
+			<Def>a066</Def>
+			<Def>u058</Def>
+			<EleMask>acc2-mask.png</EleMask>
+			<File>acc2.png</File>
+		</Image>
+		<Image>
+			<Def>a061</Def>
+			<Def>a062</Def>
+			<Def>a067</Def>
+			<EleMask>acc3-mask.png</EleMask>
+			<File>acc3.png</File>
+		</Image>
+		<Image>
+			<Def>a063</Def>
+			<Def>a068</Def>
+			<File>acc4.png</File>
+		</Image>
+		<Image>
+			<Def>a064</Def>
+			<Def>a069</Def>
+			<File>acc5.png</File>
+		</Image>
+		<Image>
+			<Def>b033</Def>
+			<Def>b040</Def>
+			<File>barrel1.png</File>
+		</Image>
+		<Image>
+			<Def>b034</Def>
+			<Def>b035</Def>
+			<EleMask>barrel2-mask.png</EleMask>
+			<File>barrel2.png</File>
+		</Image>
+		<Image>
+			<Def>b036</Def>
+			<Def>u022</Def>
+			<EleMask>barrel3-mask.png</EleMask>
+			<File>barrel3.png</File>
+		</Image>
+		<Image>
+			<Def>b037</Def>
+			<Def>b038</Def>
+			<EleMask>barrel4-mask.png</EleMask>
+			<File>barrel4.png</File>
+		</Image>
+		<Image>
+			<Def>b039</Def>
+			<File>barrel5.png</File>
+		</Image>
+		<Image>
+			<Def>f025</Def>
+			<File>body1.png</File>
+		</Image>
+		<Image>
+			<Def>f028</Def>
+			<File>body2.png</File>
+		</Image>
+		<Image>
+			<Def>f026</Def>
+			<EleMask>body3-mask.png</EleMask>
+			<File>body3.png</File>
+		</Image>
+		<Image>
+			<Def>f027</Def>
+			<File>body4.png</File>
+		</Image>
+		<Image>
+			<Def>f029</Def>
+			<File>body5.png</File>
+		</Image>
+		<Image>
+			<Def>g035</Def>
+			<Def>g036</Def>
+			<File>grip1.png</File>
+		</Image>
+		<Image>
+			<Def>g037</Def>
+			<Def>g038</Def>
+			<File>grip2.png</File>
+		</Image>
+		<Image>
+			<Def>g039</Def>
+			<Def>g040</Def>
+			<File>grip3.png</File>
+		</Image>
+		<Image>
+			<Def>g041</Def>
+			<File>grip4.png</File>
+		</Image>
+		<Image>
+			<Def>g042</Def>
+			<Def>g055</Def>
+			<File>grip5.png</File>
+		</Image>
+		<Image>
+			<Def>m026</Def>
+			<File>mag1.png</File>
+		</Image>
+		<Image>
+			<Def>m029</Def>
+			<EleMask>mag2-mask.png</EleMask>
+			<File>mag2.png</File>
+		</Image>
+		<Image>
+			<Def>m027</Def>
+			<EleMask>mag3-mask.png</EleMask>
+			<File>mag3.png</File>
+		</Image>
+		<Image>
+			<Def>m028</Def>
+			<File>mag4.png</File>
+		</Image>
+		<Image>
+			<Def>m030</Def>
+			<Def>m031</Def>
+			<Def>u031</Def>
+			<EleMask>mag5-mask.png</EleMask>
+			<File>mag5.png</File>
+		</Image>
+		<Image>
+			<Def>z026</Def>
+			<File>sight1.png</File>
+		</Image>
+		<Image>
+			<Def>z027</Def>
+			<File>sight2.png</File>
+		</Image>
+		<Image>
+			<Def>z028</Def>
+			<EleMask>sight3-mask.png</EleMask>
+			<File>sight3.png</File>
+		</Image>
+		<Image>
+			<Def>z029</Def>
+			<Def>u030</Def>
+			<File>sight4.png</File>
+		</Image>
+		<Image>
+			<Def>z030</Def>
+			<Def>z031</Def>
+			<File>sight5.png</File>
+		</Image>
+		<Image>
+			<Def>s015</Def>
+			<File>stock1.png</File>
+		</Image>
+		<Image>
+			<Def>s016</Def>
+			<File>stock2.png</File>
+		</Image>
+		<Image>
+			<Def>s017</Def>
+			<EleMask>stock3-mask.png</EleMask>
+			<File>stock3.png</File>
+		</Image>
+		<Image>
+			<Def>s018</Def>
+			<File>stock4.png</File>
+		</Image>
+		<Image>
+			<Def>s019</Def>
+			<File>stock5.png</File>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>Launcher</Name>
+		<Image>
+			<Def>a082</Def>
+			<EleMask>acc1-mask.png</EleMask>
+			<File>acc1.png</File>
+		</Image>
+		<Image>
+			<Def>a083</Def>
+			<EleMask>acc2-mask.png</EleMask>
+			<File>acc2.png</File>
+		</Image>
+		<Image>
+			<Def>a084</Def>
+			<Def>a085</Def>
+			<EleMask>acc3-mask.png</EleMask>
+			<File>acc3.png</File>
+		</Image>
+		<Image>
+			<Def>a086</Def>
+			<EleMask>acc4-mask.png</EleMask>
+			<File>acc4.png</File>
+		</Image>
+		<Image>
+			<Def>a087</Def>
+			<Def>u039</Def>
+			<EleMask>acc5-mask.png</EleMask>
+			<File>acc5.png</File>
+		</Image>
+		<Image>
+			<Def>b049</Def>
+			<Def>b050</Def>
+			<Def>b051</Def>
+			<Def>b052</Def>
+			<Def>b053</Def>
+			<Def>u037</Def>
+			<EleMask>barrel1-mask.png</EleMask>
+			<File>barrel1.png</File>
+		</Image>
+		<Image>
+			<Def>b054</Def>
+			<Def>b055</Def>
+			<Def>b056</Def>
+			<Def>u056</Def>
+			<EleMask>barrel2-mask.png</EleMask>
+			<File>barrel2.png</File>
+		</Image>
+		<Image>
+			<Def>b057</Def>
+			<Def>b058</Def>
+			<File>barrel4.png</File>
+		</Image>
+		<Image>
+			<Def>f036</Def>
+			<EleMask>body1-mask.png</EleMask>
+			<File>body1.png</File>
+		</Image>
+		<Image>
+			<Def>f037</Def>
+			<EleMask>body3-mask.png</EleMask>
+			<File>body3.png</File>
+		</Image>
+		<Image>
+			<Def>f038</Def>
+			<EleMask>body5-mask.png</EleMask>
+			<File>body5.png</File>
+		</Image>
+		<Image>
+			<Def>g049</Def>
+			<File>grip1.png</File>
+		</Image>
+		<Image>
+			<Def>g050</Def>
+			<File>grip2.png</File>
+		</Image>
+		<Image>
+			<Def>g051</Def>
+			<Def>g052</Def>
+			<File>grip3.png</File>
+		</Image>
+		<Image>
+			<Def>g053</Def>
+			<EleMask>grip4-mask.png</EleMask>
+			<File>grip4.png</File>
+		</Image>
+		<Image>
+			<Def>g054</Def>
+			<File>grip5.png</File>
+		</Image>
+		<Image>
+			<Def>m040</Def>
+			<File>mag1.png</File>
+		</Image>
+		<Image>
+			<Def>m041</Def>
+			<File>mag2.png</File>
+		</Image>
+		<Image>
+			<Def>m042</Def>
+			<EleMask>mag3-mask.png</EleMask>
+			<File>mag3.png</File>
+		</Image>
+		<Image>
+			<Def>m043</Def>
+			<File>mag4.png</File>
+		</Image>
+		<Image>
+			<Def>m044</Def>
+			<File>mag5.png</File>
+		</Image>
+		<Image>
+			<Def>z041</Def>
+			<File>sight1.png</File>
+		</Image>
+		<Image>
+			<Def>z042</Def>
+			<EleMask>sight2-mask.png</EleMask>
+			<File>sight2.png</File>
+		</Image>
+		<Image>
+			<Def>z043</Def>
+			<EleMask>sight3-mask.png</EleMask>
+			<File>sight3.png</File>
+		</Image>
+		<Image>
+			<Def>z044</Def>
+			<File>sight4.png</File>
+		</Image>
+		<Image>
+			<Def>z045</Def>
+			<File>sight5.png</File>
+		</Image>
+		<Image>
+			<Def>s026</Def>
+			<File>stock2.png</File>
+		</Image>
+		<Image>
+			<Def>s027</Def>
+			<EleMask>stock3-mask.png</EleMask>
+			<File>stock3.png</File>
+		</Image>
+		<Image>
+			<Def>s028</Def>
+			<EleMask>stock4-mask.png</EleMask>
+			<File>stock4.png</File>
+		</Image>
+		<Image>
+			<Def>s029</Def>
+			<EleMask>stock5-mask.png</EleMask>
+			<File>stock5.png</File>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>Shield Right</Name>
+		<Image>
+			<Def>r300</Def>
+			<File>A1-Base.png</File>
+			<Textured ref="x332">A1-WeeWee.png</Textured>
+			<Textured ref="x331">A1-CrackedSash.png</Textured>
+			<Textured ref="x330">A1-Vladof3.png</Textured>
+			<Textured ref="x329">A1-Vladof2.png</Textured>
+			<Textured ref="x328">A1-Vladof1.png</Textured>
+			<Textured ref="x327">A1-Torgue3.png</Textured>
+			<Textured ref="x326">A1-Torgue2.png</Textured>
+			<Textured ref="x325">A1-Torgue1.png</Textured>
+			<Textured ref="x324">A1-Tediore3.png</Textured>
+			<Textured ref="x323">A1-Tediore2.png</Textured>
+			<Textured ref="x322">A1-Tediore1.png</Textured>
+			<Textured ref="x320">A1-SandS2.png</Textured>
+			<Textured ref="x319">A1-SandS2.png</Textured>
+			<Textured ref="x318">A1-SandS1.png</Textured>
+			<Textured ref="x317">A1-Pangolin.png</Textured>
+			<Textured ref="x316">A1-Pangolin.png</Textured>
+			<Textured ref="x315">A1-Pangolin.png</Textured>
+			<Textured ref="x314">A1-Maliwan2.png</Textured>
+			<Textured ref="x313">A1-Maliwan2.png</Textured>
+			<Textured ref="x312">A1-Maliwan1.png</Textured>
+			<Textured ref="x311">A1-Hyperion3.png</Textured>
+			<Textured ref="x310">A1-Hyperion2.png</Textured>
+			<Textured ref="x309">A1-Hyperion1.png</Textured>
+			<Textured ref="x308">A1-Dahl3.png</Textured>
+			<Textured ref="x307">A1-Dahl2.png</Textured>
+			<Textured ref="x306">A1-Dahl1.png</Textured>
+			<Textured ref="x305">A1-Atlas3.png</Textured>
+			<Textured ref="x304">A1-Atlas2.png</Textured>
+			<Textured ref="x303">A1-Atlas1.png</Textured>
+			<Textured ref="x302">A1-Anshin.png</Textured>
+			<Textured ref="x301">A1-Anshin.png</Textured>
+			<Textured ref="x300">A1-Anshin.png</Textured>
+		</Image>
+		<Image>
+			<Def>r301</Def>
+			<File>A2-Base.png</File>
+			<Textured ref="x332">A2-WeeWee.png</Textured>
+			<Textured ref="x331">A2-CrackedSash.png</Textured>
+			<Textured ref="x330">A2-Vladof3.png</Textured>
+			<Textured ref="x329">A2-Vladof2.png</Textured>
+			<Textured ref="x328">A2-Vladof1.png</Textured>
+			<Textured ref="x327">A2-Torgue3.png</Textured>
+			<Textured ref="x326">A2-Torgue2.png</Textured>
+			<Textured ref="x325">A2-Torgue1.png</Textured>
+			<Textured ref="x324">A2-Tediore3.png</Textured>
+			<Textured ref="x323">A2-Tediore2.png</Textured>
+			<Textured ref="x322">A2-Tediore1.png</Textured>
+			<Textured ref="x320">A2-SandS2.png</Textured>
+			<Textured ref="x319">A2-SandS2.png</Textured>
+			<Textured ref="x318">A2-SandS1.png</Textured>
+			<Textured ref="x317">A2-Pangolin.png</Textured>
+			<Textured ref="x316">A2-Pangolin.png</Textured>
+			<Textured ref="x315">A2-Pangolin.png</Textured>
+			<Textured ref="x314">A2-Maliwan2.png</Textured>
+			<Textured ref="x313">A2-Maliwan2.png</Textured>
+			<Textured ref="x312">A2-Maliwan1.png</Textured>
+			<Textured ref="x311">A2-Hyperion3.png</Textured>
+			<Textured ref="x310">A2-Hyperion2.png</Textured>
+			<Textured ref="x309">A2-Hyperion1.png</Textured>
+			<Textured ref="x308">A2-Dahl3.png</Textured>
+			<Textured ref="x307">A2-Dahl2.png</Textured>
+			<Textured ref="x306">A2-Dahl1.png</Textured>
+			<Textured ref="x305">A2-Atlas3.png</Textured>
+			<Textured ref="x304">A2-Atlas2.png</Textured>
+			<Textured ref="x303">A2-Atlas1.png</Textured>
+			<Textured ref="x302">A2-Anshin.png</Textured>
+			<Textured ref="x301">A2-Anshin.png</Textured>
+			<Textured ref="x300">A2-Anshin.png</Textured>
+		</Image>
+		<Image>
+			<Def>r302</Def>
+			<File>A3-Base.png</File>
+			<Textured ref="x332">A3-WeeWee.png</Textured>
+			<Textured ref="x331">A3-CrackedSash.png</Textured>
+			<Textured ref="x330">A3-Vladof3.png</Textured>
+			<Textured ref="x329">A3-Vladof2.png</Textured>
+			<Textured ref="x328">A3-Vladof1.png</Textured>
+			<Textured ref="x327">A3-Torgue3.png</Textured>
+			<Textured ref="x326">A3-Torgue2.png</Textured>
+			<Textured ref="x325">A3-Torgue1.png</Textured>
+			<Textured ref="x324">A3-Tediore3.png</Textured>
+			<Textured ref="x323">A3-Tediore2.png</Textured>
+			<Textured ref="x322">A3-Tediore1.png</Textured>
+			<Textured ref="x320">A3-SandS2.png</Textured>
+			<Textured ref="x319">A3-SandS2.png</Textured>
+			<Textured ref="x318">A3-SandS1.png</Textured>
+			<Textured ref="x317">A3-Pangolin.png</Textured>
+			<Textured ref="x316">A3-Pangolin.png</Textured>
+			<Textured ref="x315">A3-Pangolin.png</Textured>
+			<Textured ref="x314">A3-Maliwan2.png</Textured>
+			<Textured ref="x313">A3-Maliwan2.png</Textured>
+			<Textured ref="x312">A3-Maliwan1.png</Textured>
+			<Textured ref="x311">A3-Hyperion3.png</Textured>
+			<Textured ref="x310">A3-Hyperion2.png</Textured>
+			<Textured ref="x309">A3-Hyperion1.png</Textured>
+			<Textured ref="x308">A3-Dahl3.png</Textured>
+			<Textured ref="x307">A3-Dahl2.png</Textured>
+			<Textured ref="x306">A3-Dahl1.png</Textured>
+			<Textured ref="x305">A3-Atlas3.png</Textured>
+			<Textured ref="x304">A3-Atlas2.png</Textured>
+			<Textured ref="x303">A3-Atlas1.png</Textured>
+			<Textured ref="x302">A3-Anshin.png</Textured>
+			<Textured ref="x301">A3-Anshin.png</Textured>
+			<Textured ref="x300">A3-Anshin.png</Textured>
+		</Image>
+		<Image>
+			<Def>r303</Def>
+			<File>A4-Base.png</File>
+			<Textured ref="x332">A4-WeeWee.png</Textured>
+			<Textured ref="x331">A4-CrackedSash.png</Textured>
+			<Textured ref="x330">A4-Vladof3.png</Textured>
+			<Textured ref="x329">A4-Vladof2.png</Textured>
+			<Textured ref="x328">A4-Vladof1.png</Textured>
+			<Textured ref="x327">A4-Torgue1-3.png</Textured>
+			<Textured ref="x326">A4-Torgue1-3.png</Textured>
+			<Textured ref="x325">A4-Torgue1-3.png</Textured>
+			<Textured ref="x324">A4-Tediore3.png</Textured>
+			<Textured ref="x323">A4-Tediore2.png</Textured>
+			<Textured ref="x322">A4-Tediore1.png</Textured>
+			<Textured ref="x320">A4-SandS2.png</Textured>
+			<Textured ref="x319">A4-SandS2.png</Textured>
+			<Textured ref="x318">A4-SandS1.png</Textured>
+			<Textured ref="x317">A4-Pangolin.png</Textured>
+			<Textured ref="x316">A4-Pangolin.png</Textured>
+			<Textured ref="x315">A4-Pangolin.png</Textured>
+			<Textured ref="x314">A4-Maliwan2.png</Textured>
+			<Textured ref="x313">A4-Maliwan2.png</Textured>
+			<Textured ref="x312">A4-Maliwan1.png</Textured>
+			<Textured ref="x311">A4-Hyperion3.png</Textured>
+			<Textured ref="x310">A4-Hyperion2.png</Textured>
+			<Textured ref="x309">A4-Hyperion1.png</Textured>
+			<Textured ref="x308">A4-Dahl3.png</Textured>
+			<Textured ref="x307">A4-Dahl2.png</Textured>
+			<Textured ref="x306">A4-Dahl1.png</Textured>
+			<Textured ref="x305">A4-Atlas3.png</Textured>
+			<Textured ref="x304">A4-Atlas2.png</Textured>
+			<Textured ref="x303">A4-Atlas1.png</Textured>
+			<Textured ref="x302">A4-Anshin.png</Textured>
+			<Textured ref="x301">A4-Anshin.png</Textured>
+			<Textured ref="x300">A4-Anshin.png</Textured>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>Shield Left</Name>
+		<Image>
+			<Def>l300</Def>
+			<File>B1-Base.png</File>
+			<Textured ref="x332">B1-WeeWee.png</Textured>
+			<Textured ref="x331">B1-CrackedSash.png</Textured>
+			<Textured ref="x330">B1-Vladof3.png</Textured>
+			<Textured ref="x329">B1-Vladof2.png</Textured>
+			<Textured ref="x328">B1-Vladof1.png</Textured>
+			<Textured ref="x327">B1-Torgue3.png</Textured>
+			<Textured ref="x326">B1-Torgue2.png</Textured>
+			<Textured ref="x325">B1-Torgue1.png</Textured>
+			<Textured ref="x324">B1-Tediore3.png</Textured>
+			<Textured ref="x323">B1-Tediore2.png</Textured>
+			<Textured ref="x322">B1-Tediore1.png</Textured>
+			<Textured ref="x320">B1-SandS2.png</Textured>
+			<Textured ref="x319">B1-SandS2.png</Textured>
+			<Textured ref="x318">B1-SandS1.png</Textured>
+			<Textured ref="x317">B1-Pangolin.png</Textured>
+			<Textured ref="x316">B1-Pangolin.png</Textured>
+			<Textured ref="x315">B1-Pangolin.png</Textured>
+			<Textured ref="x314">B1-Maliwan2.png</Textured>
+			<Textured ref="x313">B1-Maliwan2.png</Textured>
+			<Textured ref="x312">B1-Maliwan1.png</Textured>
+			<Textured ref="x311">B1-Hyperion3.png</Textured>
+			<Textured ref="x310">B1-Hyperion2.png</Textured>
+			<Textured ref="x309">B1-Hyperion1.png</Textured>
+			<Textured ref="x308">B1-Dahl3.png</Textured>
+			<Textured ref="x307">B1-Dahl2.png</Textured>
+			<Textured ref="x306">B1-Dahl1.png</Textured>
+			<Textured ref="x305">B1-Atlas3.png</Textured>
+			<Textured ref="x304">B1-Atlas2.png</Textured>
+			<Textured ref="x303">B1-Atlas1.png</Textured>
+			<Textured ref="x302">B1-Anshin.png</Textured>
+			<Textured ref="x301">B1-Anshin.png</Textured>
+			<Textured ref="x300">B1-Anshin.png</Textured>
+		</Image>
+		<Image>
+			<Def>l301</Def>
+			<File>B2-Base.png</File>
+			<Textured ref="x332">B2-WeeWee.png</Textured>
+			<Textured ref="x331">B2-CrackedSash.png</Textured>
+			<Textured ref="x330">B2-Vladof3.png</Textured>
+			<Textured ref="x329">B2-Vladof2.png</Textured>
+			<Textured ref="x328">B2-Vladof1.png</Textured>
+			<Textured ref="x327">B2-Torgue3.png</Textured>
+			<Textured ref="x326">B2-Torgue2.png</Textured>
+			<Textured ref="x325">B2-Torgue1.png</Textured>
+			<Textured ref="x324">B2-Tediore3.png</Textured>
+			<Textured ref="x323">B2-Tediore2.png</Textured>
+			<Textured ref="x322">B2-Tediore1.png</Textured>
+			<Textured ref="x320">B2-SandS2.png</Textured>
+			<Textured ref="x319">B2-SandS2.png</Textured>
+			<Textured ref="x318">B2-SandS1.png</Textured>
+			<Textured ref="x317">B2-Pangolin.png</Textured>
+			<Textured ref="x316">B2-Pangolin.png</Textured>
+			<Textured ref="x315">B2-Pangolin.png</Textured>
+			<Textured ref="x314">B2-Maliwan2.png</Textured>
+			<Textured ref="x313">B2-Maliwan2.png</Textured>
+			<Textured ref="x312">B2-Maliwan1.png</Textured>
+			<Textured ref="x311">B2-Hyperion3.png</Textured>
+			<Textured ref="x310">B2-Hyperion2.png</Textured>
+			<Textured ref="x309">B2-Hyperion1.png</Textured>
+			<Textured ref="x308">B2-Dahl3.png</Textured>
+			<Textured ref="x307">B2-Dahl2.png</Textured>
+			<Textured ref="x306">B2-Dahl1.png</Textured>
+			<Textured ref="x305">B2-Atlas3.png</Textured>
+			<Textured ref="x304">B2-Atlas2.png</Textured>
+			<Textured ref="x303">B2-Atlas1.png</Textured>
+			<Textured ref="x302">B2-Anshin.png</Textured>
+			<Textured ref="x301">B2-Anshin.png</Textured>
+			<Textured ref="x300">B2-Anshin.png</Textured>
+		</Image>
+		<Image>
+			<Def>l302</Def>
+			<File>B3-Base.png</File>
+			<Textured ref="x332">B3-WeeWee.png</Textured>
+			<Textured ref="x331">B3-CrackedSash.png</Textured>
+			<Textured ref="x330">B3-Vladof3.png</Textured>
+			<Textured ref="x329">B3-Vladof2.png</Textured>
+			<Textured ref="x328">B3-Vladof1.png</Textured>
+			<Textured ref="x327">B3-Torgue3.png</Textured>
+			<Textured ref="x326">B3-Torgue2.png</Textured>
+			<Textured ref="x325">B3-Torgue1.png</Textured>
+			<Textured ref="x324">B3-Tediore3.png</Textured>
+			<Textured ref="x323">B3-Tediore2.png</Textured>
+			<Textured ref="x322">B3-Tediore1.png</Textured>
+			<Textured ref="x320">B3-SandS2.png</Textured>
+			<Textured ref="x319">B3-SandS2.png</Textured>
+			<Textured ref="x318">B3-SandS1.png</Textured>
+			<Textured ref="x317">B3-Pangolin.png</Textured>
+			<Textured ref="x316">B3-Pangolin.png</Textured>
+			<Textured ref="x315">B3-Pangolin.png</Textured>
+			<Textured ref="x314">B3-Maliwan2.png</Textured>
+			<Textured ref="x313">B3-Maliwan2.png</Textured>
+			<Textured ref="x312">B3-Maliwan1.png</Textured>
+			<Textured ref="x311">B3-Hyperion3.png</Textured>
+			<Textured ref="x310">B3-Hyperion2.png</Textured>
+			<Textured ref="x309">B3-Hyperion1.png</Textured>
+			<Textured ref="x308">B3-Dahl3.png</Textured>
+			<Textured ref="x307">B3-Dahl2.png</Textured>
+			<Textured ref="x306">B3-Dahl1.png</Textured>
+			<Textured ref="x305">B3-Atlas3.png</Textured>
+			<Textured ref="x304">B3-Atlas2.png</Textured>
+			<Textured ref="x303">B3-Atlas1.png</Textured>
+			<Textured ref="x302">B3-Anshin.png</Textured>
+			<Textured ref="x301">B3-Anshin.png</Textured>
+			<Textured ref="x300">B3-Anshin.png</Textured>
+		</Image>
+		<Image>
+			<Def>l303</Def>
+			<File>B4-Base.png</File>
+			<Textured ref="x332">B4-WeeWee.png</Textured>
+			<Textured ref="x331">B4-CrackedSash.png</Textured>
+			<Textured ref="x330">B4-Vladof3.png</Textured>
+			<Textured ref="x329">B4-Vladof2.png</Textured>
+			<Textured ref="x328">B4-Vladof1.png</Textured>
+			<Textured ref="x327">B4-Torgue3.png</Textured>
+			<Textured ref="x326">B4-Torgue2.png</Textured>
+			<Textured ref="x325">B4-Torgue1.png</Textured>
+			<Textured ref="x324">B4-Tediore3.png</Textured>
+			<Textured ref="x323">B4-Tediore2.png</Textured>
+			<Textured ref="x322">B4-Tediore1.png</Textured>
+			<Textured ref="x320">B4-SandS2.png</Textured>
+			<Textured ref="x319">B4-SandS2.png</Textured>
+			<Textured ref="x318">B4-SandS1.png</Textured>
+			<Textured ref="x317">B4-Pangolin.png</Textured>
+			<Textured ref="x316">B4-Pangolin.png</Textured>
+			<Textured ref="x315">B4-Pangolin.png</Textured>
+			<Textured ref="x314">B4-Maliwan2.png</Textured>
+			<Textured ref="x313">B4-Maliwan2.png</Textured>
+			<Textured ref="x312">B4-Maliwan1.png</Textured>
+			<Textured ref="x311">B4-Hyperion3.png</Textured>
+			<Textured ref="x310">B4-Hyperion2.png</Textured>
+			<Textured ref="x309">B4-Hyperion1.png</Textured>
+			<Textured ref="x308">B4-Dahl3.png</Textured>
+			<Textured ref="x307">B4-Dahl2.png</Textured>
+			<Textured ref="x306">B4-Dahl1.png</Textured>
+			<Textured ref="x305">B4-Atlas3.png</Textured>
+			<Textured ref="x304">B4-Atlas2.png</Textured>
+			<Textured ref="x303">B4-Atlas1.png</Textured>
+			<Textured ref="x302">B4-Anshin.png</Textured>
+			<Textured ref="x301">B4-Anshin.png</Textured>
+			<Textured ref="x300">B4-Anshin.png</Textured>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>Shield Body</Name>
+		<Image>
+			<Def>f300</Def>
+			<Def>f301</Def>
+			<File>C1-Base.png</File>
+			<Textured ref="x332">C1-WeeWee.png</Textured>
+			<Textured ref="x331">C1-CrackedSash.png</Textured>
+			<Textured ref="x330">C1-Vladof3.png</Textured>
+			<Textured ref="x329">C1-Vladof2.png</Textured>
+			<Textured ref="x328">C1-Vladof1.png</Textured>
+			<Textured ref="x327">C1-Torgue3.png</Textured>
+			<Textured ref="x326">C1-Torgue2.png</Textured>
+			<Textured ref="x325">C1-Torgue1.png</Textured>
+			<Textured ref="x324">C1-Tediore3.png</Textured>
+			<Textured ref="x323">C1-Tediore2.png</Textured>
+			<Textured ref="x322">C1-Tediore1.png</Textured>
+			<Textured ref="x320">C1-SandS2.png</Textured>
+			<Textured ref="x319">C1-SandS2.png</Textured>
+			<Textured ref="x318">C1-SandS1.png</Textured>
+			<Textured ref="x317">C1-Pangolin.png</Textured>
+			<Textured ref="x316">C1-Pangolin.png</Textured>
+			<Textured ref="x315">C1-Pangolin.png</Textured>
+			<Textured ref="x314">C1-Maliwan2.png</Textured>
+			<Textured ref="x313">C1-Maliwan2.png</Textured>
+			<Textured ref="x312">C1-Maliwan1.png</Textured>
+			<Textured ref="x311">C1-Hyperion3.png</Textured>
+			<Textured ref="x310">C1-Hyperion2.png</Textured>
+			<Textured ref="x309">C1-Hyperion1.png</Textured>
+			<Textured ref="x308">C1-Dahl3.png</Textured>
+			<Textured ref="x307">C1-Dahl2.png</Textured>
+			<Textured ref="x306">C1-Dahl1.png</Textured>
+			<Textured ref="x305">C1-Atlas3.png</Textured>
+			<Textured ref="x304">C1-Atlas2.png</Textured>
+			<Textured ref="x303">C1-Atlas1.png</Textured>
+			<Textured ref="x302">C1-Anshin.png</Textured>
+			<Textured ref="x301">C1-Anshin.png</Textured>
+			<Textured ref="x300">C1-Anshin.png</Textured>
+		</Image>
+		<Image>
+			<Def>f305</Def>
+			<Def>f306</Def>
+			<Def>f308</Def>
+			<Def>f309</Def>
+			<File>C2-Base.png</File>
+			<Textured ref="x332">C2-WeeWee.png</Textured>
+			<Textured ref="x331">C2-CrackedSash.png</Textured>
+			<Textured ref="x330">C2-Vladof3.png</Textured>
+			<Textured ref="x329">C2-Vladof2.png</Textured>
+			<Textured ref="x328">C2-Vladof1.png</Textured>
+			<Textured ref="x327">C2-Torgue3.png</Textured>
+			<Textured ref="x326">C2-Torgue2.png</Textured>
+			<Textured ref="x325">C2-Torgue1.png</Textured>
+			<Textured ref="x324">C2-Tediore3.png</Textured>
+			<Textured ref="x323">C2-Tediore2.png</Textured>
+			<Textured ref="x322">C2-Tediore1.png</Textured>
+			<Textured ref="x320">C2-SandS2.png</Textured>
+			<Textured ref="x319">C2-SandS2.png</Textured>
+			<Textured ref="x318">C2-SandS1.png</Textured>
+			<Textured ref="x317">C2-Pangolin.png</Textured>
+			<Textured ref="x316">C2-Pangolin.png</Textured>
+			<Textured ref="x315">C2-Pangolin.png</Textured>
+			<Textured ref="x314">C2-Maliwan2.png</Textured>
+			<Textured ref="x313">C2-Maliwan2.png</Textured>
+			<Textured ref="x312">C2-Maliwan1.png</Textured>
+			<Textured ref="x311">C2-Hyperion3.png</Textured>
+			<Textured ref="x310">C2-Hyperion2.png</Textured>
+			<Textured ref="x309">C2-Hyperion1.png</Textured>
+			<Textured ref="x308">C2-Dahl3.png</Textured>
+			<Textured ref="x307">C2-Dahl2.png</Textured>
+			<Textured ref="x306">C2-Dahl1.png</Textured>
+			<Textured ref="x305">C2-Atlas3.png</Textured>
+			<Textured ref="x304">C2-Atlas2.png</Textured>
+			<Textured ref="x303">C2-Atlas1.png</Textured>
+			<Textured ref="x302">C2-Anshin.png</Textured>
+			<Textured ref="x301">C2-Anshin.png</Textured>
+			<Textured ref="x300">C2-Anshin.png</Textured>
+		</Image>
+		<Image>
+			<Def>f303</Def>
+			<Def>f304</Def>
+			<Def>f307</Def>
+			<File>C3-Base.png</File>
+			<Textured ref="x332">C3-WeeWee.png</Textured>
+			<Textured ref="x331">C3-CrackedSash.png</Textured>
+			<Textured ref="x330">C3-Vladof3.png</Textured>
+			<Textured ref="x329">C3-Vladof2.png</Textured>
+			<Textured ref="x328">C3-Vladof1.png</Textured>
+			<Textured ref="x327">C3-Torgue3.png</Textured>
+			<Textured ref="x326">C3-Torgue2.png</Textured>
+			<Textured ref="x325">C3-Torgue1.png</Textured>
+			<Textured ref="x324">C3-Tediore3.png</Textured>
+			<Textured ref="x323">C3-Tediore2.png</Textured>
+			<Textured ref="x322">C3-Tediore1.png</Textured>
+			<Textured ref="x320">C3-SandS2.png</Textured>
+			<Textured ref="x319">C3-SandS2.png</Textured>
+			<Textured ref="x318">C3-SandS1.png</Textured>
+			<Textured ref="x317">C3-Pangolin.png</Textured>
+			<Textured ref="x316">C3-Pangolin.png</Textured>
+			<Textured ref="x315">C3-Pangolin.png</Textured>
+			<Textured ref="x314">C3-Maliwan2.png</Textured>
+			<Textured ref="x313">C3-Maliwan2.png</Textured>
+			<Textured ref="x312">C3-Maliwan1.png</Textured>
+			<Textured ref="x311">C3-Hyperion3.png</Textured>
+			<Textured ref="x310">C3-Hyperion2.png</Textured>
+			<Textured ref="x309">C3-Hyperion1.png</Textured>
+			<Textured ref="x308">C3-Dahl3.png</Textured>
+			<Textured ref="x307">C3-Dahl2.png</Textured>
+			<Textured ref="x306">C3-Dahl1.png</Textured>
+			<Textured ref="x305">C3-Atlas3.png</Textured>
+			<Textured ref="x304">C3-Atlas2.png</Textured>
+			<Textured ref="x303">C3-Atlas1.png</Textured>
+			<Textured ref="x302">C3-Anshin.png</Textured>
+			<Textured ref="x301">C3-Anshin.png</Textured>
+			<Textured ref="x300">C3-Anshin.png</Textured>
+		</Image>
+		<Image>
+			<Def>f302</Def>
+			<File>C4-Base.png</File>
+			<Textured ref="x332">C4-WeeWee.png</Textured>
+			<Textured ref="x331">C4-CrackedSash.png</Textured>
+			<Textured ref="x330">C4-Vladof3.png</Textured>
+			<Textured ref="x329">C4-Vladof2.png</Textured>
+			<Textured ref="x328">C4-Vladof1.png</Textured>
+			<Textured ref="x327">C4-Torgue3.png</Textured>
+			<Textured ref="x326">C4-Torgue2.png</Textured>
+			<Textured ref="x325">C4-Torgue1.png</Textured>
+			<Textured ref="x324">C4-Tediore3.png</Textured>
+			<Textured ref="x323">C4-Tediore2.png</Textured>
+			<Textured ref="x322">C4-Tediore1.png</Textured>
+			<Textured ref="x320">C4-SandS2.png</Textured>
+			<Textured ref="x319">C4-SandS2.png</Textured>
+			<Textured ref="x318">C4-SandS1.png</Textured>
+			<Textured ref="x317">C4-Pangolin.png</Textured>
+			<Textured ref="x316">C4-Pangolin.png</Textured>
+			<Textured ref="x315">C4-Pangolin.png</Textured>
+			<Textured ref="x314">C4-Maliwan2.png</Textured>
+			<Textured ref="x313">C4-Maliwan2.png</Textured>
+			<Textured ref="x312">C4-Maliwan1.png</Textured>
+			<Textured ref="x311">C4-Hyperion3.png</Textured>
+			<Textured ref="x310">C4-Hyperion2.png</Textured>
+			<Textured ref="x309">C4-Hyperion1.png</Textured>
+			<Textured ref="x308">C4-Dahl3.png</Textured>
+			<Textured ref="x307">C4-Dahl2.png</Textured>
+			<Textured ref="x306">C4-Dahl1.png</Textured>
+			<Textured ref="x305">C4-Atlas3.png</Textured>
+			<Textured ref="x304">C4-Atlas2.png</Textured>
+			<Textured ref="x303">C4-Atlas1.png</Textured>
+			<Textured ref="x302">C4-Anshin.png</Textured>
+			<Textured ref="x301">C4-Anshin.png</Textured>
+			<Textured ref="x300">C4-Anshin.png</Textured>
+		</Image>
+	</Folder>
+	<Folder>
+		<Name>Eridian</Name>
+		<Image>
+			<Def>b059</Def>
+			<File>body1.png</File>
+		</Image>
+		<Image>
+			<Def>b067</Def>
+			<Def>b068</Def>
+			<Def>b069</Def>
+			<Def>b070</Def>
+			<Def>b071</Def>
+			<Def>b072</Def>
+			<Def>b073</Def>
+			<File>body2.png</File>
+		</Image>
+		<Image>
+			<Def>b074</Def>
+			<File>body3.png</File>
+		</Image>
+		<Image>
+			<Def>b060</Def>
+			<Def>b061</Def>
+			<Def>b062</Def>
+			<Def>b063</Def>
+			<File>body4.png</File>
+		</Image>
+		<Image>
+			<Def>b064</Def>
+			<Def>b066</Def>
+			<File>body5.png</File>
+		</Image>
+		<Image>
+			<Def>b065</Def>
+			<File>body6.png</File>
+		</Image>
+	</Folder>
+</ImageBin>

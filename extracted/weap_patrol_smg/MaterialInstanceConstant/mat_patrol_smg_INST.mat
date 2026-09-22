@@ -1,0 +1,10 @@
+Diffuse=tex_patrol_smg_color
+Normal=tex_patrol_smg_norm
+Other[0]=tex_patrol_smg_mask
+Other[1]=tex_patrol_smg_light
+Other[2]=tex_sniper_rifle_norm
+Other[3]=tex_sniper_rifle_light
+Other[4]=tex_sniper_rifle_mask
+Other[5]=tex_sniper_rifle_color
+Other[6]=Tex_Pattern_clear
+Other[7]=weapon_cube_Tex6

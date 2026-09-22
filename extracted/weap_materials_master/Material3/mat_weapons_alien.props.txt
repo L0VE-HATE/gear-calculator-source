@@ -1,0 +1,36 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Textures.tex_alien_rifle_norm'
+    ReferencedTextures[1] = Texture2D'Textures.tex_alien_rifle_diff'
+    ReferencedTextures[2] = TextureCube3'Textures.CubeMaps.tex_CubeMap_Generic2'
+}
+Expressions[16] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'masters.mat_weapons_alien.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'masters.mat_weapons_alien.MaterialExpressionTextureSample_4'
+    Expressions[3] = MaterialExpressionScalarParameter'masters.mat_weapons_alien.MaterialExpressionScalarParameter_0'
+    Expressions[5] = MaterialExpressionScalarParameter'masters.mat_weapons_alien.MaterialExpressionScalarParameter_1'
+    Expressions[7] = MaterialExpressionScalarParameter'masters.mat_weapons_alien.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.05
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1.5, Name=Spec_Contrast, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Spec_Brightness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Spec_Color, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

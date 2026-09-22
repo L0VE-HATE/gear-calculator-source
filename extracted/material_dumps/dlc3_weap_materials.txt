@@ -1,0 +1,1259 @@
+Detected game root <Borderlands install>/WillowGame/CookedPC
+Found 2978 game files (61 skipped) in 258 folders at path "<Borderlands install>/WillowGame/CookedPC"
+Scanned game directory in 0.0 sec, 3678 allocs, 0.00 MBytes serialized in 0 calls.
+Loading package: DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk Ver: 584/58 Engine: 70407 Names: 92 Exports: 20 Imports: 22 Game: 800017
+Loading MaterialInstanceConstant Atlas_AjaxSpear_3 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading package: Packages/weapons/weap_materials_master.upk Ver: 584/57 Engine: 70405 Names: 311 Exports: 277 Imports: 60 Game: 800017
+Loading MaterialInstanceConstant Atlas_Aries_3 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Dahl_Jackal_2 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Dahl_Typhoon_2 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Hyperion_AthenasWisdom from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Hyperion_Nemesis_3 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Jakobs_Bessie_2 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Maliwan_Tsunami_3 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant SandS_KnoxsGold_2 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant SandS_Serpens_2 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Tediore_Avenger_3 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Tediore_ChiquitoAmigo_2 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Torgue_Undertaker_3 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Vladof_Revenge_3 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading MaterialInstanceConstant Vladof_TheChopper_3 from package DLC/DLC3/Packages/GameData/Inventory/dlc3_weap_materials.upk
+Loading Texture2D Tex_Pattern_clear from package Packages/weapons/weap_materials_master.upk
+Loading Material3 mat_weapons_1 from package Packages/weapons/weap_materials_master.upk
+ObjectProperty: unknown UMaterial3 LightingCurve
+BoolProperty: unknown UMaterial3 bUsedWithMaterialEffect
+Loading package: Packages/weapons/weap_sniper_rifle.upk Ver: 584/57 Engine: 70405 Names: 210 Exports: 94 Imports: 22 Game: 800017
+Loading Texture2D Tex_Pattern_Cammo_Digital from package Packages/weapons/weap_materials_master.upk
+Loading Texture2D Tex_Pattern_Stars_Inv from package Packages/weapons/weap_materials_master.upk
+Loading Texture2D Tex_Pattern_Wood from package Packages/weapons/weap_materials_master.upk
+Loading Texture2D Tex_Pattern_Stripes from package Packages/weapons/weap_materials_master.upk
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionScalarParameter bRealtimePreview
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionScalarParameter bRealtimePreview
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionScalarParameter bRealtimePreview
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionVectorParameter bRealtimePreview
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionVectorParameter bRealtimePreview
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionTextureSampleParameter2D bRealtimePreview
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionVectorParameter bRealtimePreview
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionTextureSampleParameter2D bRealtimePreview
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionVectorParameter bRealtimePreview
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSample MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSample MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionVectorParameter bRealtimePreview
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionScalarParameter MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionVectorParameter MaterialExpressionEditorY
+BoolProperty: unknown UMaterialExpressionVectorParameter bRealtimePreview
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorX
+IntProperty: unknown UMaterialExpressionTextureSampleParameter2D MaterialExpressionEditorY
+Loading Texture2D tex_sniper_rifle_norm from package Packages/weapons/weap_sniper_rifle.upk
+Loading Texture2D tex_sniper_rifle_light from package Packages/weapons/weap_sniper_rifle.upk
+Loading Texture2D tex_sniper_rifle_mask from package Packages/weapons/weap_sniper_rifle.upk
+Loading Texture2D tex_sniper_rifle_color from package Packages/weapons/weap_sniper_rifle.upk
+Loading TextureCube3 weapon_cube_Tex6 from package Packages/weapons/weap_materials_master.upk
+Loading Texture2D CubemapFace0 from package Packages/weapons/weap_materials_master.upk
+Loading Texture2D CubemapFace1 from package Packages/weapons/weap_materials_master.upk
+Loading Texture2D CubemapFace2 from package Packages/weapons/weap_materials_master.upk
+Loading Texture2D CubemapFace3 from package Packages/weapons/weap_materials_master.upk
+Loading Texture2D CubemapFace4 from package Packages/weapons/weap_materials_master.upk
+Loading Texture2D CubemapFace5 from package Packages/weapons/weap_materials_master.upk
+Loaded in 0.0 sec, 579 allocs, 5.79 MBytes serialized in 163 calls.
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Atlas_AjaxSpear_3
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[4] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=45, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=30, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=30, ParameterName=constant_spec_power }
+        ScalarParameterValues[3] = { ParameterInfo=, ParameterValue=4, ParameterName=composite_overlay_scale }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=8, G=9, B=10, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=6, G=6, B=10, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=0, B=0.005, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.5, G=0.2, B=0, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1.5, G=1.7, B=2, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=1, B=1.2, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Atlas_Aries_3
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[4] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=45, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=30, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=30, ParameterName=constant_spec_power }
+        ScalarParameterValues[3] = { ParameterInfo=, ParameterValue=4, ParameterName=composite_overlay_scale }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=8, G=9, B=10, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=4, G=5, B=10, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=0, B=0.005, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=15, G=16, B=17, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1.5, G=1.7, B=4, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=1, B=4, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Dahl_Jackal_2
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[4] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=5, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=8, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+        ScalarParameterValues[3] = { ParameterInfo=, ParameterValue=8, ParameterName=composite_overlay_scale }
+    }
+    TextureParameterValues[1] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_Cammo_Digital'
+            ParameterName = composite_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=5, G=5, B=4, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.3, G=0.05, B=0, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.5, G=0.5, B=0.3, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=4, G=5, B=0, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.6, G=0.3, B=0.3, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.05, G=0, B=0, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Dahl_Typhoon_2
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[4] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=5, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=8, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+        ScalarParameterValues[3] = { ParameterInfo=, ParameterValue=8, ParameterName=composite_overlay_scale }
+    }
+    TextureParameterValues[1] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_Cammo_Digital'
+            ParameterName = composite_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=5, G=5, B=4, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.5, G=0.5, B=0.3, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=2, G=6, B=8, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.8, G=0.3, B=0.8, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.4, G=0.2, B=0.8, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Hyperion_AthenasWisdom
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[5] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=40, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=10, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+        ScalarParameterValues[3] = { ParameterInfo=, ParameterValue=4, ParameterName=composite_overlay_scale }
+        ScalarParameterValues[4] = { ParameterInfo=, ParameterValue=4, ParameterName=metal_overlay_scale }
+    }
+    TextureParameterValues[1] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_Stars_Inv'
+            ParameterName = composite_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=10, G=0.2, B=3, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.5, G=0, B=4, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=0, B=0, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=5, G=0.1, B=2, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=0, B=3, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.75, G=0, B=3, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Hyperion_Nemesis_3
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[3] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=15, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=90, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=1, ParameterName=constant_spec_power }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=5, G=0, B=0, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=20, G=0, B=0, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=0, B=0, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=0.7, B=0.5, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=50, G=0, B=0, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=-10, G=-10, B=-10, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Jakobs_Bessie_2
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[4] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=100, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=60, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+        ScalarParameterValues[3] = { ParameterInfo=, ParameterValue=7, ParameterName=composite_overlay_scale }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_Wood'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=60, G=35, B=20, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=1, B=1.1, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.1, G=0.1, B=0.2, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=23, G=9, B=3, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.8, G=0.8, B=1, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=0, B=0, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Maliwan_Tsunami_3
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[3] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=15, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=80, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=4, G=6, B=6, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=7, G=8, B=10, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=0, B=0, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=2, B=6, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=2, G=30, B=15, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=2, B=1.5, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: SandS_KnoxsGold_2
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[3] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=80, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=15, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=15, G=6, B=0, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=15, G=6, B=0, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.3, G=0.3, B=0.3, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.5, G=0.2, B=0, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=22, G=12, B=2.5, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.4, G=0.2, B=0, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: SandS_Serpens_2
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[3] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=30, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=10, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=2, B=1, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=7, G=6, B=0, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.3, G=0.3, B=0.3, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=3, B=0, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=7, G=5, B=4, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=4, G=3, B=0.5, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Tediore_Avenger_3
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[3] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=40, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=3, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=20, G=15, B=12, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=2, G=2, B=2, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.6, G=0.6, B=0.6, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=4, G=3.5, B=2, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=8, G=6, B=2, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=2, G=1.3, B=1, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Tediore_ChiquitoAmigo_2
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[3] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=15, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=1, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.2, G=1, B=1, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.5, G=1.5, B=0.5, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.6, G=0.6, B=0.6, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=6, G=5.8, B=5.2, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=2, G=2, B=2, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.2, G=0.5, B=0.2, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Torgue_Undertaker_3
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[3] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=20, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=50, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=8, G=8, B=10, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.1, G=0, B=0, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.6, G=0.6, B=0.6, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.6, G=0.5, B=0.5, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.1, G=0, B=0, A=1 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=0, B=0, A=1 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Vladof_Revenge_3
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[3] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=40, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=8, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_Stripes'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=7, G=2, B=0, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=18, G=18, B=20, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.05, G=0.05, B=0.06, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=8, G=2, B=0, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=1, B=1.1, A=0 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=0, B=0, A=0 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: Vladof_TheChopper_3
+    Parent = Material3'masters.mat_weapons_1'
+    ScalarParameterValues[4] =
+    {
+        ScalarParameterValues[0] = { ParameterInfo=, ParameterValue=120, ParameterName=metal_spec_power }
+        ScalarParameterValues[1] = { ParameterInfo=, ParameterValue=8, ParameterName=composite_spec_power }
+        ScalarParameterValues[2] = { ParameterInfo=, ParameterValue=16, ParameterName=constant_spec_power }
+        ScalarParameterValues[3] = { ParameterInfo=, ParameterValue=256, ParameterName=composite_overlay_scale }
+    }
+    TextureParameterValues[2] =
+    {
+        TextureParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_Stripes'
+            ParameterName = composite_overlay
+        }
+        TextureParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = Texture2D'Overlays.Tex_Pattern_clear'
+            ParameterName = metal_overlay
+        }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=9, G=1, B=0, A=1 }
+            ParameterName = composite_spec_color
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+            ParameterName = metal_spec_color
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0, G=0, B=0, A=0 }
+            ParameterName = Emissive_color
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=12, G=1, B=0, A=1 }
+            ParameterName = composite_color
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.2, G=0, B=0, A=0 }
+            ParameterName = Cube_map_color
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterInfo = 
+            ParameterValue = { R=0.1, G=0, B=0, A=0 }
+            ParameterName = metal_color
+        }
+    }
+    BasePropertyOverrides = 
+    StaticParameters = 
+    RuntimeVirtualTextureParameterValues[0] = {}
+    FontParameterValues[0] = {}
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+    TextureStreamingData[0] = {}

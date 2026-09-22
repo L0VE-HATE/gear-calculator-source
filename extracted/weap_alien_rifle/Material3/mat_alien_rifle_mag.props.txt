@@ -1,0 +1,36 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Textures.tex_alien_rifle_diff'
+    ReferencedTextures[1] = Texture2D'Textures.tex_alien_rifle_norm'
+}
+Expressions[18] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'Material.mat_alien_rifle_mag.MaterialExpressionTextureSample_2'
+    Expressions[1] = MaterialExpressionTextureSample'Material.mat_alien_rifle_mag.MaterialExpressionTextureSample_3'
+    Expressions[13] = MaterialExpressionTextureSampleParameter2D'Material.mat_alien_rifle_mag.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures.tex_alien_rifle_norm'
+        Name = None
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

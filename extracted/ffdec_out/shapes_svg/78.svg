@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:ffdec="https://www.free-decompiler.com/flash" xmlns:xlink="http://www.w3.org/1999/xlink" ffdec:objectType="shape" height="624.95px" width="837.95px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.0, 1.0)">
+    <path d="M835.95 32.0 L835.95 572.9 820.9 587.95 0.0 587.95 0.0 51.9 8.7 51.9 28.6 32.0 835.95 32.0" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+    <path d="M0.0 51.9 L0.0 29.95 29.95 0.0 805.95 0.0 835.95 30.0 835.95 32.0 28.6 32.0 8.7 51.9 0.0 51.9" fill="#202c31" fill-rule="evenodd" stroke="none"/>
+    <path d="M820.9 587.95 L785.9 622.95 0.0 622.95 0.0 587.95 820.9 587.95 M835.95 622.95 L798.9 622.95 835.95 585.9 835.95 622.95" fill="#364a52" fill-rule="evenodd" stroke="none"/>
+    <path d="M0.0 51.9 L0.0 29.95 29.95 0.0 805.95 0.0 835.95 30.0 835.95 32.0 835.95 572.9 820.9 587.95 785.9 622.95 0.0 622.95 0.0 587.95 0.0 51.9 M835.95 622.95 L798.9 622.95 835.95 585.9 835.95 622.95 Z" fill="none" stroke="#669ecd" stroke-linecap="round" stroke-linejoin="miter-clip" stroke-miterlimit="3.0" stroke-width="2.0"/>
+  </g>
+  <defs>
+    <linearGradient gradientTransform="matrix(0.0, -0.3528, 0.5102, 0.0, 417.95, 291.0)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#1a1f21"/>
+      <stop offset="1.0" stop-color="#2b434d"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,124 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1590",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "combat_rifle_comp",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "mat_combat_rifle_INST",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4,
+            "TEXCOORD_1" : 5
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "combat_rifle_comp"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "combat_rifle_comp.bin",
+      "byteLength" : 283128
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 23568
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 23568,
+      "byteLength" : 55620
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 79188,
+      "byteLength" : 55620
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 134808,
+      "byteLength" : 74160
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 208968,
+      "byteLength" : 37080
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 246048,
+      "byteLength" : 37080
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 11784,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -0.072003, -0.137489, -0.883503 ],
+      "max" : [ 0.066647, 0.243969, 0.438323 ],
+      "componentType" : 5126,
+      "count" : 4635,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 4635,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 4635,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 4635,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 4635,
+      "type" : "VEC2"
+    }
+  ]
+}

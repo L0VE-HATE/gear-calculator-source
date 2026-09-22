@@ -1,0 +1,76 @@
+<!doctype html>
+<html><head><meta charset="utf8">
+<style>body{margin:0;background:#222;color:#fff;font-family:monospace}#log{position:absolute;top:0;left:0;z-index:10;background:rgba(0,0,0,.6);padding:8px;max-width:500px;white-space:pre-wrap;font-size:12px}</style>
+</head><body>
+<div id="log">loading...</div>
+<script type="importmap">
+{"imports": {"three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+"three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const log = document.getElementById('log');
+const logs = [];
+function p(s){ logs.push(s); log.textContent = logs.join('\n'); console.log(s); }
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x222222);
+const camera = new THREE.PerspectiveCamera(45, innerWidth/innerHeight, 0.01, 1000);
+camera.position.set(0.5, 1, 2.5);
+const renderer = new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(innerWidth, innerHeight);
+document.body.appendChild(renderer.domElement);
+const controls = new OrbitControls(camera, renderer.domElement);
+
+scene.add(new THREE.AmbientLight(0xffffff, 1.2));
+const dl = new THREE.DirectionalLight(0xffffff, 2);
+dl.position.set(50,50,50);
+scene.add(dl);
+
+const grid = new THREE.GridHelper(4, 20);
+scene.add(grid);
+const axes = new THREE.AxesHelper(1);
+scene.add(axes);
+
+const parts = ["body1","barrel1","grip1","mag1","sight1","stock1"];
+const loader = new GLTFLoader();
+const box = new THREE.Box3();
+let loaded = 0;
+
+const texLoader = new THREE.TextureLoader();
+const colorTex = texLoader.load('./tex_color.png');
+colorTex.flipY = false;
+colorTex.colorSpace = THREE.SRGBColorSpace;
+
+parts.forEach(name => {
+  loader.load(`./${name}.gltf`, gltf => {
+    const obj = gltf.scene;
+    obj.name = name;
+    obj.traverse(o => {
+      if (o.isMesh) {
+        o.material = new THREE.MeshStandardMaterial({ map: colorTex, metalness: 0.2, roughness: 0.6 });
+      }
+    });
+    scene.add(obj);
+    const b = new THREE.Box3().setFromObject(obj);
+    box.union(b);
+    loaded++;
+    p(`${name}: min=(${b.min.x.toFixed(1)},${b.min.y.toFixed(1)},${b.min.z.toFixed(1)}) max=(${b.max.x.toFixed(1)},${b.max.y.toFixed(1)},${b.max.z.toFixed(1)})`);
+    if (loaded === parts.length) {
+      const c = box.getCenter(new THREE.Vector3());
+      const size = box.getSize(new THREE.Vector3());
+      p(`COMBINED center=(${c.x.toFixed(1)},${c.y.toFixed(1)},${c.z.toFixed(1)}) size=(${size.x.toFixed(1)},${size.y.toFixed(1)},${size.z.toFixed(1)})`);
+      controls.target.copy(c);
+      camera.position.copy(c).add(new THREE.Vector3(size.x*2+0.3, size.y*2+0.3, size.z*1.2+0.3));
+      controls.update();
+    }
+  }, undefined, err => { p(`ERROR loading ${name}: ${err.message||err}`); });
+});
+
+function animate(){ requestAnimationFrame(animate); controls.update(); renderer.render(scene, camera); }
+animate();
+</script>
+</body></html>

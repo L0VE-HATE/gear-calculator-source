@@ -1,0 +1,1207 @@
+<?xml version="1.0"?><!DOCTYPE PartBank SYSTEM "ShieldBank.dtd">
+
+<PartBank blVersion="1.3">
+	<AttrLookup>
+		<Attribute>
+			<TagName>BurstRadius</TagName>
+			<Target>Blast Radius</Target>
+		</Attribute>
+		<Attribute>
+			<TagName>ShieldRegenDelay</TagName>
+			<Target>Recharge Delay</Target>
+		</Attribute>
+		<Attribute>
+			<TagName>ShieldRegenRate</TagName>
+			<Target>Recharge Rate</Target>
+		</Attribute>
+		<Attribute>
+			<TagName>IncendiaryImpactDamageModifier</TagName>
+			<Target>Incendiary Impact Multiplier</Target>
+		</Attribute>
+		<Attribute>
+			<TagName>IncendiaryPassiveDamageModifier</TagName>
+			<Target>Incendiary Passive Multiplier</Target>
+		</Attribute>
+		<Attribute>
+			<TagName>CorrosiveImpactDamageModifier</TagName>
+			<Target>Corrosive Impact Multiplier</Target>
+		</Attribute>
+		<Attribute>
+			<TagName>CorrosivePassiveDamageModifier</TagName>
+			<Target>Corrosive Passive Multiplier</Target>
+		</Attribute>
+		<Attribute>
+			<TagName>ShockImpactDamageModifier</TagName>
+			<Target>Shock Impact Multiplier</Target>
+		</Attribute>
+		<Attribute>
+			<TagName>ShockPassiveDamageModifier</TagName>
+			<Target>Shock Passive Multiplier</Target>
+		</Attribute>
+	</AttrLookup>
+	<Collection id="c020">
+		<CollectionName>Shield</CollectionName>
+		<SubFolder>
+			<FolderPartType>Support</FolderPartType>
+			<Part id="j300">
+				<PartType>Gear Type</PartType>
+				<Name>gd_shields.A_Item.Item_Shield</Name>
+			</Part>
+			<Part id="k300">
+				<PartType>Item Grade</PartType>
+				<Name>gd_itemgrades.Gear.ItemGrade_Gear_Shield</Name>
+			</Part>
+			<Part id="k301">
+				<PartType>Item Grade</PartType>
+				<Name>dlc3_gd_customitems.Items.CustomItem_Shield_Anshin_Rose</Name>
+			</Part>
+			<Part id="k302">
+				<PartType>Item Grade</PartType>
+				<Name>dlc3_gd_customitems.Items.CustomItem_Shield_Atlas_Omega</Name>
+			</Part>
+			<Part id="k303">
+				<PartType>Item Grade</PartType>
+				<Name>dlc3_gd_customitems.Items.CustomItem_Shield_Pangolin_Ironclad</Name>
+			</Part>
+			<Part id="k304">
+				<PartType>Item Grade</PartType>
+				<Name>gd_customitems.Items.CustomItem_Shield_KingWeeWee</Name>
+			</Part>
+			<Part id="k305">
+				<PartType>Item Grade</PartType>
+				<Name>gd_customitems.Items.CustomItem_Shield_CrackedSash</Name>
+			</Part>
+			<Part id="i300">
+				<Name>gd_manufacturers.Manufacturers.Pangolin</Name>
+				<PartType>Manufacturer</PartType>
+				<Manufacturer>Pangolin</Manufacturer>
+				<DispName>Pangolin</DispName>
+			</Part>
+			<Part id="i301">
+				<Name>gd_manufacturers.Manufacturers.Anshin</Name>
+				<PartType>Manufacturer</PartType>
+				<Manufacturer>Anshin</Manufacturer>
+				<DispName>Anshin</DispName>
+			</Part>
+		</SubFolder>
+		<SubFolder>
+			<FolderPartType>Names</FolderPartType>
+			<Part id="p300">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Max1_Reinforced</Name>
+				<DispName>Reinforced</DispName>
+				<TitleAddend>3</TitleAddend>
+				<Priority>5.1</Priority>
+			</Part>
+			<Part id="p301">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Max2_Hardened</Name>
+				<DispName>Hardened</DispName>
+				<Priority>6.1</Priority>
+				<TitleAddend>6</TitleAddend>
+			</Part>
+			<Part id="p302">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Max3_Unbreakable</Name>
+				<DispName>Unbreakable</DispName>
+				<Priority>7.1</Priority>
+				<TitleAddend>9</TitleAddend>
+			</Part>
+			<Part id="p303">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Max4_Impenetrable</Name>
+				<DispName>Impenetrable</DispName>
+				<Priority>8.1</Priority>
+				<TitleAddend>7</TitleAddend>
+			</Part>
+			<Part id="p304">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_none</Name>
+				<DispName></DispName>
+				<Priority>15</Priority>
+			</Part>
+			<Part id="p305">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Quality1_Balanced</Name>
+				<DispName>Balanced</DispName>
+				<TitleAddend>10</TitleAddend>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="p306">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Quality2_Symmetrical</Name>
+				<DispName>Symmetrical</DispName>
+				<TitleAddend>4</TitleAddend>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="p307">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Quality3_Sterling</Name>
+				<DispName>Sterling</DispName>
+				<TitleAddend>15</TitleAddend>
+				<Priority>3</Priority>
+			</Part>
+			<Part id="p308">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Quality4_Harmonious</Name>
+				<DispName>Harmonious</DispName>
+				<TitleAddend>11</TitleAddend>
+				<Priority>4</Priority>
+			</Part>
+			<Part id="p309">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Speed1_QuickCharge</Name>
+				<DispName>Quick Charge</DispName>
+				<Priority>5</Priority>
+			</Part>
+			<Part id="p310">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Speed2_Accelerated</Name>
+				<DispName>Accelerated</DispName>
+				<TitleAddend>5</TitleAddend>
+				<Priority>6</Priority>
+			</Part>
+			<Part id="p311">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Speed3_Rapid</Name>
+				<DispName>Rapid</DispName>
+				<TitleAddend>5</TitleAddend>
+				<Priority>7</Priority>
+			</Part>
+			<Part id="p312">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Speed4_Alacritous</Name>
+				<DispName>Alacritous</DispName>
+				<TitleAddend>8</TitleAddend>
+				<Priority>8</Priority>
+			</Part>
+			<Part id="p313">
+				<PartType>Prefix</PartType>
+				<Name>gd_shields.Prefix.Prefix_Standard</Name>
+				<DispName>Standard</DispName>
+				<Priority>0.1</Priority>
+			</Part>
+			<Part id="t301">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Anshin1_GuerillaShield</Name>
+				<DispName>Guerilla Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t302">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Anshin2_SkirmisherShield</Name>
+				<DispName>Skirmisher Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t303">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Anshin3_AmbushShield</Name>
+				<DispName>Ambush Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t304">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Atlas1_GroundedShield</Name>
+				<DispName>Grounded Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t305">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Atlas2_AnionicShield</Name>
+				<DispName>Anionic Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t306">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Atlas3_CationicShield</Name>
+				<DispName>Cationic Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t307">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Dahl1_NeutralizingShield</Name>
+				<DispName>Neutralizing Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t308">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Dahl2_DilutionShield</Name>
+				<DispName>Dilution Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t309">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Dahl3_HazmatShield</Name>
+				<DispName>Hazmat Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t310">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Hyperion1_ThermalShield</Name>
+				<DispName>Thermal Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t311">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Hyperion2_AsbesticShield</Name>
+				<DispName>Asbestic Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t312">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Hyperion3_EndothermicShield</Name>
+				<DispName>Endothermic Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t313">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Maliwan1_ShockBurstShield</Name>
+				<DispName>Shock Burst Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t314">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Maliwan2_ShockWaveShield</Name>
+				<DispName>Shock Wave Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t315">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Maliwan3_ShockNovaShield</Name>
+				<DispName>Shock Nova Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t316">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Pangolin1_UnyieldingShield</Name>
+				<DispName>Unyielding Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t317">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Pangolin2_EnduringShield</Name>
+				<DispName>Enduring Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t318">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Pangolin3_FortifiedShield</Name>
+				<DispName>Fortified Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t319">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_SandS1_AcidburstShield</Name>
+				<DispName>Acid Burst Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t320">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_SandS2_AcidWaveShield</Name>
+				<DispName>Acid Wave Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t321">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_SandS3_AcidNovaShield</Name>
+				<DispName>Acid Nova Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t322">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Shield</Name>
+				<DispName>Shield</DispName>
+				<Priority>0.1</Priority>
+			</Part>
+			<Part id="t323">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Tediore1_HealingShield</Name>
+				<DispName>Healing Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t324">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Tediore2_RestorativeShield</Name>
+				<DispName>Restorative Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t325">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Tediore3_PanaceaShield</Name>
+				<DispName>Panacea Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t326">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Torgue1_ToughGuyShield</Name>
+				<DispName>Tough Guy Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t327">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Torgue2_MusclemanShield</Name>
+				<DispName>Muscleman Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t328">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Torgue3_MachoShield</Name>
+				<DispName>Macho Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t329">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_U_CrackedSash</Name>
+				<DispName>Cracked Sash</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t330">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_U_WeeWeesSuperBooster</Name>
+				<DispName>Wee Wee's Super Booster</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t331">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Vladof1_FireburstShield</Name>
+				<DispName>Fire Burst Shield</DispName>
+				<Priority>1</Priority>
+			</Part>
+			<Part id="t332">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Vladof2_FireWaveShield</Name>
+				<DispName>Fire Wave Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t333">
+				<PartType>Title</PartType>
+				<Name>gd_shields.Title.Title_Vladof3_FireNovaShield</Name>
+				<DispName>Fire Nova Shield</DispName>
+				<Priority>2</Priority>
+			</Part>
+			<Part id="t334">
+				<PartType>Title</PartType>
+				<Name>dlc3_gd_item_UniqueParts.Title.Title_P_Anshin_Rose</Name>
+				<DispName>Rose</DispName>
+				<Priority>10</Priority>
+				<RarityMod>WeaponPartRarity6_Legendary</RarityMod>
+				<CardText>
+					<CardPriority>10</CardPriority>
+					<Color>DC4646</Color>
+					<Text>Beauty and Life</Text>
+				</CardText>
+			</Part>
+			<Part id="t335">
+				<PartType>Title</PartType>
+				<Name>dlc3_gd_item_UniqueParts.Title.Title_P_Pangolin_Ironclad</Name>
+				<DispName>Ironclad</DispName>
+				<Priority>10</Priority>
+				<RarityMod>WeaponPartRarity6_Legendary</RarityMod>
+				<CardText>
+					<CardPriority>10</CardPriority>
+					<Color>DC4646</Color>
+					<Text>I stand unvanquished!</Text>
+				</CardText>
+			</Part>
+			<Part id="t336">
+				<PartType>Title</PartType>
+				<Name>dlc3_gd_item_UniqueParts.Title.Title_U_Atlas_Omega</Name>
+				<DispName>Omega</DispName>
+				<Priority>10</Priority>
+				<RarityMod>WeaponPartRarity6_Legendary</RarityMod>
+				<CardText>
+					<CardPriority>10</CardPriority>
+					<Color>DC4646</Color>
+					<Text>The Alpha and that other thing.</Text>
+				</CardText>
+			</Part>
+		</SubFolder>
+		<SubFolder>
+			<FolderPartType>Materials</FolderPartType>
+			<Part id="x300">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Anshin_1</Name>
+				<LinkedTitle>t301</LinkedTitle>
+				<TitleText>ANS-</TitleText>
+				<CostMod>ShieldPartCost1_Common</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">-0.2</Capacity>
+					<ShieldRegenDelay modType="Scale">-0.3</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.03</ShieldRegenRate>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Fast Recharge</Text>
+				</CardText>
+				<Manufacturer>Anshin</Manufacturer>
+			</Part>
+			<Part id="x301">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Anshin_2</Name>
+				<LinkedTitle>t302</LinkedTitle>
+				<TitleText>ANS2-</TitleText>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>ShieldPartRarity3_Uncommoner</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">-0.2</Capacity>
+					<ShieldRegenDelay modType="Scale">-0.4</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.04</ShieldRegenRate>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Very Fast Recharge</Text>
+				</CardText>
+				<Manufacturer>Anshin</Manufacturer>
+			</Part>
+			<Part id="x302">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Anshin_3</Name>
+				<LinkedTitle>t303</LinkedTitle>
+				<TitleText>ANS2-</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">-0.2</Capacity>
+					<ShieldRegenDelay modType="Scale">-0.6</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.08</ShieldRegenRate>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Super Fast Recharge!</Text>
+				</CardText>
+				<Manufacturer>Anshin</Manufacturer>
+			</Part>
+			<Part id="x303">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Atlas_1</Name>
+				<LinkedTitle>t304</LinkedTitle>
+				<TitleText>ATL-</TitleText>
+				<CostMod>ShieldPartCost2_Uncommon</CostMod>
+				<RarityMod>ShieldPartRarity2_Uncommon</RarityMod>
+				<AttrMod>
+					<ShockImpactDamageModifier modType="Scale">-0.5</ShockImpactDamageModifier>
+					<ShockPassiveDamageModifier modType="Scale">-0.5</ShockPassiveDamageModifier>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Shock Resistance</Text>
+				</CardText>
+				<Manufacturer>Atlas</Manufacturer>
+			</Part>
+			<Part id="x304">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Atlas_2a</Name>
+				<LinkedTitle>t305</LinkedTitle>
+				<TitleText>ATL-</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<ShockImpactDamageModifier modType="Scale">-1</ShockImpactDamageModifier>
+					<ShockPassiveDamageModifier modType="Scale">-1</ShockPassiveDamageModifier>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>High Shock Resistance</Text>
+				</CardText>
+				<Manufacturer>Atlas</Manufacturer>
+			</Part>
+			<Part id="x305">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Atlas_3</Name>
+				<LinkedTitle>t306</LinkedTitle>
+				<TitleText>ATL-</TitleText>
+				<CostMod>ShieldPartCost5_VeryRare</CostMod>
+				<RarityMod>ShieldPartRarity5_VeryRare</RarityMod>
+				<AttrMod>
+					<ShockImpactDamageModifier modType="Scale">-2</ShockImpactDamageModifier>
+					<ShockPassiveDamageModifier modType="Scale">-2</ShockPassiveDamageModifier>
+				</AttrMod>
+				<CardText>
+					<CardPriority>2</CardPriority>
+					<Text>Extreme Shock Resistance!</Text>
+				</CardText>
+				<Manufacturer>Atlas</Manufacturer>
+			</Part>
+			<Part id="x306">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Dahl_1</Name>
+				<LinkedTitle>t307</LinkedTitle>
+				<TitleText>DHL-</TitleText>
+				<CostMod>ShieldPartCost1_Common</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<AttrMod>
+					<CorrosiveImpactDamageModifier modType="Scale">-0.5</CorrosiveImpactDamageModifier>
+					<CorrosivePassiveDamageModifier modType="Scale">-0.5</CorrosivePassiveDamageModifier>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Corrosive Resistance</Text>
+				</CardText>
+				<Manufacturer>Dahl</Manufacturer>
+			</Part>
+			<Part id="x307">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Dahl_2a</Name>
+				<LinkedTitle>t308</LinkedTitle>
+				<TitleText>DHL-</TitleText>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>ShieldPartRarity3_Uncommoner</RarityMod>
+				<AttrMod>
+					<CorrosiveImpactDamageModifier modType="Scale">-1</CorrosiveImpactDamageModifier>
+					<CorrosivePassiveDamageModifier modType="Scale">-1</CorrosivePassiveDamageModifier>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>High Corrosive Resistance</Text>
+				</CardText>
+				<Manufacturer>Dahl</Manufacturer>
+			</Part>
+			<Part id="x308">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Dahl_3</Name>
+				<LinkedTitle>t309</LinkedTitle>
+				<TitleText>DHL-</TitleText>
+				<CostMod>WeaponPartRarity4_Rare</CostMod>
+				<RarityMod>ShieldPartCost4_Rare</RarityMod>
+				<AttrMod>
+					<CorrosiveImpactDamageModifier modType="Scale">-2</CorrosiveImpactDamageModifier>
+					<CorrosivePassiveDamageModifier modType="Scale">-2</CorrosivePassiveDamageModifier>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Extreme Corrosive Resistance!</Text>
+				</CardText>
+				<Manufacturer>Dahl</Manufacturer>
+			</Part>
+			<Part id="x309">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Hyperion_1</Name>
+				<LinkedTitle>t310</LinkedTitle>
+				<TitleText>HYP-</TitleText>
+				<CostMod>ShieldPartCost2_Uncommon</CostMod>
+				<RarityMod>ShieldPartRarity2_Uncommon</RarityMod>
+				<AttrMod>
+					<IncendiaryImpactDamageModifier modType="Scale">-0.5</IncendiaryImpactDamageModifier>
+					<IncendiaryPassiveDamageModifier modType="Scale">-0.5</IncendiaryPassiveDamageModifier>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Fire Resistance</Text>
+				</CardText>
+				<Manufacturer>Hyperion</Manufacturer>
+			</Part>
+			<Part id="x310">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Hyperion_2a</Name>
+				<LinkedTitle>t311</LinkedTitle>
+				<TitleText>HYP-</TitleText>
+				<CostMod>WeaponPartRarity4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<IncendiaryImpactDamageModifier modType="Scale">-1</IncendiaryImpactDamageModifier>
+					<IncendiaryPassiveDamageModifier modType="Scale">-1</IncendiaryPassiveDamageModifier>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>High Fire Resistance</Text>
+				</CardText>
+				<Manufacturer>Hyperion</Manufacturer>
+			</Part>
+			<Part id="x311">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Hyperion_3</Name>
+				<LinkedTitle>t312</LinkedTitle>
+				<TitleText>HYP-</TitleText>
+				<CostMod>ShieldPartCost5_VeryRare</CostMod>
+				<RarityMod>ShieldPartRarity5_VeryRare</RarityMod>
+				<AttrMod>
+					<IncendiaryImpactDamageModifier modType="Scale">-2</IncendiaryImpactDamageModifier>
+					<IncendiaryPassiveDamageModifier modType="Scale">-2</IncendiaryPassiveDamageModifier>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Extreme Fire Resistance!</Text>
+				</CardText>
+				<Manufacturer>Hyperion</Manufacturer>
+			</Part>
+			<Part id="x312">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Maliwan_1</Name>
+				<LinkedTitle>t313</LinkedTitle>
+				<TitleText>MLN-</TitleText>
+				<CostMod>WeaponPartRarity2_Uncommon</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<AttrMod>
+					<BurstRadius modType="PostAdd">256</BurstRadius>
+				</AttrMod>
+				<CardText>
+					<CardPriority>3</CardPriority>
+					<Text>Creates a small Shock Burst when depleted.</Text>
+				</CardText>
+				<Manufacturer>Maliwan</Manufacturer>
+			</Part>
+			<Part id="x313">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Maliwan_2a</Name>
+				<LinkedTitle>t314</LinkedTitle>
+				<TitleText>MLN-</TitleText>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>ShieldPartRarity3_Uncommoner</RarityMod>
+				<AttrMod>
+					<BurstRadius modType="PostAdd">384</BurstRadius>
+				</AttrMod>
+				<CardText>
+					<CardPriority>2</CardPriority>
+					<Text>Creates a Shock Wave when depleted.</Text>
+				</CardText>
+				<Manufacturer>Maliwan</Manufacturer>
+			</Part>
+			<Part id="x314">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Maliwan_3</Name>
+				<LinkedTitle>t315</LinkedTitle>
+				<TitleText>MLN-</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<BurstRadius modType="PostAdd">512</BurstRadius>
+				</AttrMod>
+				<CardText>
+					<CardPriority>2</CardPriority>
+					<Text>Creates a large Shock Nova when depleted.</Text>
+				</CardText>
+				<Manufacturer>Maliwan</Manufacturer>
+			</Part>
+			<Part id="x315">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Pangolin_1</Name>
+				<LinkedTitle>t316</LinkedTitle>
+				<TitleText>PNG-</TitleText>
+				<CostMod>ShieldPartCost2_Uncommon</CostMod>
+				<RarityMod>ShieldPartRarity2_Uncommon</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.3</Capacity>
+					<ShieldRegenDelay modType="Scale">0.3</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">-0.03</ShieldRegenRate>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>High Capacity</Text>
+				</CardText>
+				<Manufacturer>Pangolin</Manufacturer>
+			</Part>
+			<Part id="x316">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Pangolin_2a</Name>
+				<LinkedTitle>t317</LinkedTitle>
+				<TitleText>PNG-</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.4</Capacity>
+					<ShieldRegenDelay modType="Scale">0.2</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">-0.03</ShieldRegenRate>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Very High Capacity</Text>
+				</CardText>
+				<Manufacturer>Pangolin</Manufacturer>
+			</Part>
+			<Part id="x317">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Pangolin_3</Name>
+				<LinkedTitle>t318</LinkedTitle>
+				<TitleText>PNG2-</TitleText>
+				<CostMod>ShieldPartCost5_VeryRare</CostMod>
+				<RarityMod>ShieldPartRarity5_VeryRare</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.6</Capacity>
+					<ShieldRegenDelay modType="Scale">0.1</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">-0.03</ShieldRegenRate>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Overcharge Capacity!</Text>
+				</CardText>
+				<Manufacturer>Pangolin</Manufacturer>
+			</Part>
+			<Part id="x318">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_SandS_1</Name>
+				<LinkedTitle>t319</LinkedTitle>
+				<TitleText>SnS-</TitleText>
+				<CostMod>ShieldPartCost1_Common</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<AttrMod>
+					<BurstRadius modType="PostAdd">256</BurstRadius>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Creates a small Acid burst when depleted.</Text>
+				</CardText>
+				<Manufacturer>SandS Munitions</Manufacturer>
+			</Part>
+			<Part id="x319">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_SandS_2a</Name>
+				<LinkedTitle>t320</LinkedTitle>
+				<TitleText>SnS-</TitleText>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>ShieldPartRarity3_Uncommoner</RarityMod>
+				<AttrMod>
+					<BurstRadius modType="PostAdd">384</BurstRadius>
+				</AttrMod>
+				<CardText>
+					<CardPriority>2</CardPriority>
+					<Text>Creates an Acid Wave when depleted.</Text>
+				</CardText>
+				<Manufacturer>SandS Munitions</Manufacturer>
+			</Part>
+			<Part id="x320">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_SandS_3</Name>
+				<LinkedTitle>t321</LinkedTitle>
+				<TitleText>SnS-</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<BurstRadius modType="PostAdd">512</BurstRadius>
+				</AttrMod>
+				<CardText>
+					<CardPriority>2</CardPriority>
+					<Text>Creates a large Acid Nova when depleted.</Text>
+				</CardText>
+				<Manufacturer>SandS Munitions</Manufacturer>
+			</Part>
+			<Part id="x321">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Tediore_0_Starter</Name>
+				<TitleText>TDR-</TitleText>
+				<CostMod>ShieldPartCost0_Cheap</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<Manufacturer>Tediore</Manufacturer>
+			</Part>
+			<Part id="x322">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Tediore_1</Name>
+				<LinkedTitle>t323</LinkedTitle>
+				<TitleText>TDR-</TitleText>
+				<CostMod>ShieldPartCost1_Common</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<AttrMod>
+					<HealthRegen modType="PostAdd">0.035</HealthRegen>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Very slow health regeneration</Text>
+				</CardText>
+				<Manufacturer>Tediore</Manufacturer>
+			</Part>
+			<Part id="x323">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Tediore_2a</Name>
+				<LinkedTitle>t324</LinkedTitle>
+				<TitleText>TDR-</TitleText>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>ShieldPartRarity3_Uncommoner</RarityMod>
+				<AttrMod>
+					<HealthRegen modType="PostAdd">0.08</HealthRegen>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Slow health regeneration</Text>
+				</CardText>
+				<Manufacturer>Tediore</Manufacturer>
+			</Part>
+			<Part id="x324">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Tediore_3</Name>
+				<LinkedTitle>t325</LinkedTitle>
+				<TitleText>TDR-</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<HealthRegen modType="PostAdd">0.2</HealthRegen>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Quick Health Regeneration!</Text>
+				</CardText>
+				<Manufacturer>Tediore</Manufacturer>
+			</Part>
+			<Part id="x325">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Torgue_1</Name>
+				<LinkedTitle>t326</LinkedTitle>
+				<TitleText>TRG-</TitleText>
+				<CostMod>ShieldPartCost1_Common</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<AttrMod>
+					<Health modType="Scale">0.3</Health>
+					<Capacity modType="PreAdd" init="BaseCapacity">-0.2</Capacity>
+				</AttrMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Health Boost 30%</Text>
+				</CardText>
+				<Manufacturer>Torgue</Manufacturer>
+			</Part>
+			<Part id="x326">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Torgue_2a</Name>
+				<LinkedTitle>t327</LinkedTitle>
+				<TitleText>TRG-</TitleText>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>ShieldPartRarity3_Uncommoner</RarityMod>
+				<AttrMod>
+					<Health modType="Scale">0.4</Health>
+					<Capacity modType="PreAdd" init="BaseCapacity">-0.2</Capacity>
+				</AttrMod>
+				<CardText>
+					<CardPriority>3</CardPriority>
+					<Text>Health Boost 40%</Text>
+				</CardText>
+				<Manufacturer>Torgue</Manufacturer>
+			</Part>
+			<Part id="x327">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Torgue_3</Name>
+				<LinkedTitle>t328</LinkedTitle>
+				<TitleText>TRG-</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<Health modType="Scale">0.6</Health>
+					<Capacity modType="PreAdd" init="BaseCapacity">-0.2</Capacity>
+				</AttrMod>
+				<CardText>
+					<CardPriority>3</CardPriority>
+					<Text>Health Boost 60%</Text>
+				</CardText>
+				<Manufacturer>Torgue</Manufacturer>
+			</Part>
+			<Part id="x328">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Vladof_1</Name>
+				<LinkedTitle>t331</LinkedTitle>
+				<TitleText>VDF-</TitleText>
+				<CostMod>ShieldPartCost1_Common</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<AttrMod>
+					<BurstRadius modType="PostAdd">256</BurstRadius>
+				</AttrMod>
+				<CardText>
+					<CardPriority>3</CardPriority>
+					<Text>Creates a small Fire Burst when depleted.</Text>
+				</CardText>
+				<Manufacturer>Vladof</Manufacturer>
+			</Part>
+			<Part id="x329">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Vladof_2a</Name>
+				<LinkedTitle>t332</LinkedTitle>
+				<TitleText>VDF-</TitleText>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>ShieldPartRarity3_Uncommoner</RarityMod>
+				<AttrMod>
+					<BurstRadius modType="PostAdd">384</BurstRadius>
+				</AttrMod>
+				<CardText>
+					<CardPriority>3</CardPriority>
+					<Text>Creates a Fire Wave when depleted.</Text>
+				</CardText>
+				<Manufacturer>Vladof</Manufacturer>
+			</Part>
+			<Part id="x330">
+				<PartType>Material</PartType>
+				<Name>gd_shields.ManufacturerMaterials.Material_Vladof_3</Name>
+				<LinkedTitle>t333</LinkedTitle>
+				<TitleText>VDF-</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<BurstRadius modType="PostAdd">512</BurstRadius>
+				</AttrMod>
+				<CardText>
+					<CardPriority>3</CardPriority>
+					<Text>Creates a large Fire Nova when depleted.</Text>
+				</CardText>
+				<Manufacturer>Vladof</Manufacturer>
+			</Part>
+			<Part id="x331">
+				<PartType>Material</PartType>
+				<Name>gd_shields.UniqueParts.CrackedSash_Material</Name>
+				<Manufacturer>Anshin</Manufacturer>
+				<LinkedPrefix>p304</LinkedPrefix>
+				<LinkedTitle>t329</LinkedTitle>
+				<TitleText>ANS-</TitleText>
+				<CostMod>ShieldPartCost1_Common</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<CardText>
+					<CardPriority>1</CardPriority>
+					<Text>Fast Recharge</Text>
+				</CardText>
+			</Part>
+			<Part id="x332">
+				<PartType>Material</PartType>
+				<Name>gd_shields.UniqueParts.Shield_WeeWee_Material</Name>
+				<Manufacturer>Pangolin</Manufacturer>
+				<LinkedPrefix>p304</LinkedPrefix>
+				<LinkedTitle>t330</LinkedTitle>
+				<TitleText>TDR-</TitleText>
+				<CostMod>ShieldPartCost5_VeryRare</CostMod>
+				<RarityMod>ShieldPartRarity5_VeryRare</RarityMod>
+				<AttrMod>
+					<HealthRegen modType="PostAdd">0.2</HealthRegen>
+					<Health modType="Scale">0.15</Health>
+				</AttrMod>
+			</Part>
+		</SubFolder>
+		<SubFolder>
+			<FolderPartType>General</FolderPartType>
+			<Part id="f300">
+				<PartType>Shield Body</PartType>
+				<Name>gd_shields.Body.body1</Name>
+				<TitleText>OBS</TitleText>
+				<LinkedPrefix>p305</LinkedPrefix>
+				<LinkedPrefix>p306</LinkedPrefix>
+				<CostMod>ShieldPartCost1_Common</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+			</Part>
+			<Part id="f301">
+				<PartType>Shield Body</PartType>
+				<Name>gd_shields.Body.body1_balanced</Name>
+				<LinkedPrefix>p305</LinkedPrefix>
+				<LinkedPrefix>p306</LinkedPrefix>
+				<LinkedPrefix>p307</LinkedPrefix>
+				<LinkedPrefix>p308</LinkedPrefix>
+				<TitleText>OS</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.2</Capacity>
+					<ShieldRegenDelay modType="Scale">-0.25</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.05</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="f302">
+				<PartType>Shield Body</PartType>
+				<Name>gd_shields.Body.body2</Name>
+				<LinkedPrefix>p309</LinkedPrefix>
+				<LinkedPrefix>p310</LinkedPrefix>
+				<TitleText>FRR</TitleText>
+				<TechMod>1</TechMod>
+				<CostMod>ShieldPartCost2_Uncommon</CostMod>
+				<RarityMod>ShieldPartRarity2_Uncommon</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">-0.2</Capacity>
+					<ShieldRegenDelay modType="Scale">-0.25</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.05</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="f303">
+				<PartType>Shield Body</PartType>
+				<Name>gd_shields.Body.body3</Name>
+				<LinkedPrefix>p300</LinkedPrefix>
+				<LinkedPrefix>p301</LinkedPrefix>
+				<TitleText>OC</TitleText>
+				<TechMod>2</TechMod>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>ShieldPartRarity3_Uncommoner</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.25</Capacity>
+					<ShieldRegenDelay modType="Scale">0.3</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">-0.06</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="f304">
+				<PartType>Shield Body</PartType>
+				<Name>gd_shields.Body.body3b_power</Name>
+				<LinkedPrefix>p300</LinkedPrefix>
+				<LinkedPrefix>p301</LinkedPrefix>
+				<LinkedPrefix>p302</LinkedPrefix>
+				<LinkedPrefix>p303</LinkedPrefix>
+				<TitleText>XC</TitleText>
+				<TechMod>2</TechMod>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.4</Capacity>
+					<ShieldRegenDelay modType="Scale">0.3</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">-0.06</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="f305">
+				<PartType>Shield Body</PartType>
+				<Name>gd_shields.Body.body4</Name>
+				<LinkedPrefix>p309</LinkedPrefix>
+				<LinkedPrefix>p310</LinkedPrefix>
+				<LinkedPrefix>p311</LinkedPrefix>
+				<LinkedPrefix>p312</LinkedPrefix>
+				<TitleText>AWE</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<TechMod>2</TechMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">-0.3</Capacity>
+					<ShieldRegenDelay modType="Scale">-0.5</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.1</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="f306">
+				<PartType>Shield Body</PartType>
+				<Name>gd_shields.UniqueParts.body4_CrackedSash</Name>
+				<Manufacturer>Anshin</Manufacturer>
+				<TitleText>CRKED</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<TechMod>2</TechMod>
+				<AttrMod>
+					<Capacity modType="Scale">-1.5</Capacity>
+					<ShieldRegenDelay modType="Scale">-2.5</ShieldRegenDelay>
+					<ShieldRegenRate modType="Scale">2</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="f307">
+				<PartType>Shield Body</PartType>
+				<Name>dlc3_gd_item_UniqueParts.Shield.body3_Pangolin_Ironclad</Name>
+				<Manufacturer>Pangolin</Manufacturer>
+				<LinkedPrefix>p300</LinkedPrefix>
+				<LinkedPrefix>p301</LinkedPrefix>
+				<LinkedTitle>t335</LinkedTitle>
+				<TitleText>OC</TitleText>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>WeaponPartRarity6_Legendary</RarityMod>
+				<TechMod>2</TechMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.55</Capacity>
+					<ShieldRegenDelay modType="Scale">0.3</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">-0.06</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="f308">
+				<PartType>Shield Body</PartType>
+				<Name>dlc3_gd_item_UniqueParts.Shield.body4_Anshin_Rose</Name>
+				<Manufacturer>Anshin</Manufacturer>
+				<LinkedPrefix>p309</LinkedPrefix>
+				<LinkedPrefix>p310</LinkedPrefix>
+				<LinkedPrefix>p311</LinkedPrefix>
+				<LinkedPrefix>p312</LinkedPrefix>
+				<LinkedTitle>t334</LinkedTitle>
+				<TitleText>AWE</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>WeaponPartRarity6_Legendary</RarityMod>
+				<TechMod>2</TechMod>
+				<AttrMod>
+					<ShieldRegenDelay modType="Scale">-0.5</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.1</ShieldRegenRate>
+					<HealthRegen modType="PostAdd">10</HealthRegen>
+				</AttrMod>
+			</Part>
+			<Part id="f309">
+				<PartType>Shield Body</PartType>
+				<Name>dlc3_gd_item_UniqueParts.Shield.body4_Atlas_Omega</Name>
+				<Manufacturer>Atlas</Manufacturer>
+				<LinkedPrefix>p309</LinkedPrefix>
+				<LinkedPrefix>p310</LinkedPrefix>
+				<LinkedPrefix>p311</LinkedPrefix>
+				<LinkedPrefix>p312</LinkedPrefix>
+				<LinkedTitle>t336</LinkedTitle>
+				<TitleText>OO</TitleText>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>WeaponPartRarity6_Legendary</RarityMod>
+				<TechMod>2</TechMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.22</Capacity>
+					<ShieldRegenDelay modType="Scale">-0.7</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.15</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="l300">
+				<PartType>Shield Left Side</PartType>
+				<Name>gd_shields.LeftSide.leftside1</Name>
+				<CostMod>ShieldPartCost0_Cheap</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<TechMod>1</TechMod>
+			</Part>
+			<Part id="l301">
+				<PartType>Shield Left Side</PartType>
+				<Name>gd_shields.LeftSide.leftside2</Name>
+				<TitleAddend>20</TitleAddend>
+				<CostMod>ShieldPartCost2_Uncommon</CostMod>
+				<RarityMod>ShieldPartRarity2_Uncommon</RarityMod>
+				<TechMod>1</TechMod>
+				<AttrMod>
+					<ShieldRegenDelay modType="Scale">-0.15</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.02</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="l302">
+				<PartType>Shield Left Side</PartType>
+				<Name>gd_shields.LeftSide.leftside3</Name>
+				<TitleAddend>40</TitleAddend>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<TechMod>2</TechMod>
+				<AttrMod>
+					<ShieldRegenDelay modType="Scale">-0.25</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.04</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="l303">
+				<PartType>Shield Left Side</PartType>
+				<Name>gd_shields.LeftSide.leftside4</Name>
+				<TitleAddend>5</TitleAddend>
+				<CostMod>ShieldPartCost5_VeryRare</CostMod>
+				<RarityMod>ShieldPartRarity5_VeryRare</RarityMod>
+				<TechMod>3</TechMod>
+				<AttrMod>
+					<ShieldRegenDelay modType="Scale">-0.45</ShieldRegenDelay>
+					<ShieldRegenRate modType="PreAdd" init="BaseCapacity">0.07</ShieldRegenRate>
+				</AttrMod>
+			</Part>
+			<Part id="r300">
+				<PartType>Shield Right Side</PartType>
+				<Name>gd_shields.RightSide.rightside1</Name>
+				<CostMod>ShieldPartCost0_Cheap</CostMod>
+				<RarityMod>ShieldPartRarity1_Common</RarityMod>
+				<TechMod>1</TechMod>
+			</Part>
+			<Part id="r301">
+				<PartType>Shield Right Side</PartType>
+				<Name>gd_shields.RightSide.rightside2</Name>
+				<TitleAddend>10</TitleAddend>
+				<CostMod>ShieldPartCost2_Uncommon</CostMod>
+				<RarityMod>ShieldPartRarity2_Uncommon</RarityMod>
+				<TechMod>1</TechMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.1</Capacity>
+				</AttrMod>
+			</Part>
+			<Part id="r302">
+				<PartType>Shield Right Side</PartType>
+				<Name>gd_shields.RightSide.rightside3</Name>
+				<TitleAddend>30</TitleAddend>
+				<CostMod>ShieldPartCost3_Uncommoner</CostMod>
+				<RarityMod>ShieldPartRarity3_Uncommoner</RarityMod>
+				<TechMod>2</TechMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.2</Capacity>
+				</AttrMod>
+			</Part>
+			<Part id="r303">
+				<PartType>Shield Right Side</PartType>
+				<Name>gd_shields.RightSide.rightside4</Name>
+				<TitleAddend>50</TitleAddend>
+				<CostMod>ShieldPartCost4_Rare</CostMod>
+				<RarityMod>ShieldPartRarity4_Rare</RarityMod>
+				<TechMod>3</TechMod>
+				<AttrMod>
+					<Capacity modType="PreAdd" init="BaseCapacity">0.35</Capacity>
+				</AttrMod>
+			</Part>
+		</SubFolder>
+	</Collection>
+</PartBank>

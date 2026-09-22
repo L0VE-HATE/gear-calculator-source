@@ -1,0 +1,10 @@
+Diffuse=tex_combat_rifle_color
+Normal=tex_combat_rifle_norm
+Other[0]=tex_combat_rifle_mask
+Other[1]=Tex_Pattern_clear
+Other[2]=tex_combat_rifle_light
+Other[3]=tex_sniper_rifle_norm
+Other[4]=tex_sniper_rifle_light
+Other[5]=tex_sniper_rifle_mask
+Other[6]=tex_sniper_rifle_color
+Other[7]=weapon_cube_Tex6

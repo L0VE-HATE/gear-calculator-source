@@ -1,0 +1,1979 @@
+{
+ "rootPath": "assets/ScaledParts/",
+ "priorityManagers": {
+  "rifle": [
+   {
+    "partType": "Accessory",
+    "priority": 3
+   },
+   {
+    "partType": "Body",
+    "priority": 12
+   },
+   {
+    "partType": "Barrel",
+    "priority": 13
+   },
+   {
+    "partType": "Stock",
+    "priority": 10
+   },
+   {
+    "partType": "Magazine",
+    "priority": 20
+   },
+   {
+    "partType": "Sight",
+    "priority": 5
+   },
+   {
+    "partType": "Grip",
+    "priority": 15
+   }
+  ],
+  "repeater": [
+   {
+    "partType": "Accessory",
+    "priority": 3
+   },
+   {
+    "partType": "Body",
+    "priority": 12
+   },
+   {
+    "partType": "Barrel",
+    "priority": 8
+   },
+   {
+    "partType": "Action",
+    "priority": 10
+   },
+   {
+    "partType": "Magazine",
+    "priority": 7
+   },
+   {
+    "partType": "Sight",
+    "priority": 5
+   },
+   {
+    "partType": "Grip",
+    "priority": 15
+   }
+  ]
+ },
+ "folders": {
+  "Shotgun": [
+   {
+    "defs": [
+     "a007",
+     "a001"
+    ],
+    "file": "acc1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a008",
+     "a002"
+    ],
+    "file": "acc2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a009",
+     "a010",
+     "a003"
+    ],
+    "file": "acc3.png",
+    "mask": "acc3-mask.png"
+   },
+   {
+    "defs": [
+     "a011",
+     "a012",
+     "a004"
+    ],
+    "file": "acc4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a013",
+     "a014",
+     "a015",
+     "a005",
+     "a006"
+    ],
+    "file": "acc5.png",
+    "mask": "acc5-mask.png"
+   },
+   {
+    "defs": [
+     "b001"
+    ],
+    "file": "barrel1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b002",
+     "b003",
+     "u005",
+     "u007"
+    ],
+    "file": "barrel2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b004",
+     "b005",
+     "u043",
+     "u001",
+     "u003"
+    ],
+    "file": "barrel3.png",
+    "mask": "barrel3-mask.png"
+   },
+   {
+    "defs": [
+     "b006",
+     "b009"
+    ],
+    "file": "barrel4.png",
+    "mask": "barrel4-mask.png"
+   },
+   {
+    "defs": [
+     "b007",
+     "b008"
+    ],
+    "file": "barrel5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f001"
+    ],
+    "file": "body1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f002"
+    ],
+    "file": "body2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f003",
+     "f004"
+    ],
+    "file": "body3.png",
+    "mask": "body3-mask.png"
+   },
+   {
+    "defs": [
+     "f005"
+    ],
+    "file": "body4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f006"
+    ],
+    "file": "body5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g001",
+     "g002"
+    ],
+    "file": "grip1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g003",
+     "g004",
+     "g005"
+    ],
+    "file": "grip2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g006",
+     "g007",
+     "g008"
+    ],
+    "file": "grip3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g009"
+    ],
+    "file": "grip4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g010"
+    ],
+    "file": "grip5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z001"
+    ],
+    "file": "sight1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z002"
+    ],
+    "file": "sight2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z003"
+    ],
+    "file": "sight3.png",
+    "mask": "sight3-mask.png"
+   },
+   {
+    "defs": [
+     "z004"
+    ],
+    "file": "sight4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z005"
+    ],
+    "file": "sight5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m003"
+    ],
+    "file": "mag1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m004",
+     "m005"
+    ],
+    "file": "mag2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m001",
+     "m002"
+    ],
+    "file": "mag3.png",
+    "mask": "mag3-mask.png"
+   },
+   {
+    "defs": [
+     "m006"
+    ],
+    "file": "mag4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m007"
+    ],
+    "file": "mag5.png",
+    "mask": "mag5-mask.png"
+   }
+  ],
+  "SMG": [
+   {
+    "defs": [
+     "a046"
+    ],
+    "file": "acc1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a047",
+     "a048",
+     "u060"
+    ],
+    "file": "acc2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a049",
+     "a050",
+     "u062"
+    ],
+    "file": "acc3.png",
+    "mask": "acc3-mask.png"
+   },
+   {
+    "defs": [
+     "a051"
+    ],
+    "file": "acc4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a052",
+     "a053",
+     "a054"
+    ],
+    "file": "acc5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b025"
+    ],
+    "file": "barrel1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b026",
+     "b027"
+    ],
+    "file": "barrel2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b028",
+     "b029"
+    ],
+    "file": "barrel3.png",
+    "mask": "barrel3-mask.png"
+   },
+   {
+    "defs": [
+     "b030"
+    ],
+    "file": "barrel4.png",
+    "mask": "barrel4-mask.png"
+   },
+   {
+    "defs": [
+     "b031",
+     "b032"
+    ],
+    "file": "barrel5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f019"
+    ],
+    "file": "body1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f020"
+    ],
+    "file": "body2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f021",
+     "f022"
+    ],
+    "file": "body3.png",
+    "mask": "body3-mask.png"
+   },
+   {
+    "defs": [
+     "f023"
+    ],
+    "file": "body4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f024"
+    ],
+    "file": "body5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g029"
+    ],
+    "file": "grip1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g030"
+    ],
+    "file": "grip2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g031"
+    ],
+    "file": "grip3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g032",
+     "g033"
+    ],
+    "file": "grip4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g034"
+    ],
+    "file": "grip5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m020"
+    ],
+    "file": "mag1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m021"
+    ],
+    "file": "mag2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m022"
+    ],
+    "file": "mag3.png",
+    "mask": "mag3-mask.png"
+   },
+   {
+    "defs": [
+     "m023",
+     "m024"
+    ],
+    "file": "mag4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m025",
+     "u026"
+    ],
+    "file": "mag5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z021"
+    ],
+    "file": "sight1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z022"
+    ],
+    "file": "sight2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z023"
+    ],
+    "file": "sight3.png",
+    "mask": "sight3-mask.png"
+   },
+   {
+    "defs": [
+     "z024",
+     "u028"
+    ],
+    "file": "sight4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z025"
+    ],
+    "file": "sight5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s010"
+    ],
+    "file": "stock1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s011"
+    ],
+    "file": "stock2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s012"
+    ],
+    "file": "stock3.png",
+    "mask": "stock3-mask.png"
+   },
+   {
+    "defs": [
+     "s013"
+    ],
+    "file": "stock4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s014"
+    ],
+    "file": "stock5.png",
+    "mask": null
+   }
+  ],
+  "Repeater": [
+   {
+    "defs": [
+     "a029",
+     "a030",
+     "a043"
+    ],
+    "file": "acc1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a031",
+     "a032",
+     "a044",
+     "a045"
+    ],
+    "file": "acc2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a033"
+    ],
+    "file": "acc3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a034",
+     "a035"
+    ],
+    "file": "acc4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a036",
+     "a037",
+     "a038",
+     "a039",
+     "a040",
+     "a041",
+     "a047",
+     "u020"
+    ],
+    "file": "acc5.png",
+    "mask": "acc5-mask.png"
+   },
+   {
+    "defs": [
+     "e001"
+    ],
+    "file": "action1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "e002"
+    ],
+    "file": "action2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "e003"
+    ],
+    "file": "action3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "e004"
+    ],
+    "file": "action4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "e005"
+    ],
+    "file": "action5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b017",
+     "u049"
+    ],
+    "file": "barrel0.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b018",
+     "u016"
+    ],
+    "file": "barrel1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b019"
+    ],
+    "file": "barrel2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b020"
+    ],
+    "file": "barrel3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b021",
+     "b022",
+     "u018",
+     "u045"
+    ],
+    "file": "barrel4.png",
+    "mask": "barrel4-mask.png"
+   },
+   {
+    "defs": [
+     "b023",
+     "b024",
+     "u014",
+     "u051"
+    ],
+    "file": "barrel5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f013"
+    ],
+    "file": "body1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f014"
+    ],
+    "file": "body2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f015",
+     "f016"
+    ],
+    "file": "body3.png",
+    "mask": "body3-mask.png"
+   },
+   {
+    "defs": [
+     "f017"
+    ],
+    "file": "body4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f018"
+    ],
+    "file": "body5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g017"
+    ],
+    "file": "grip1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g018",
+     "g019",
+     "g026"
+    ],
+    "file": "grip2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g020",
+     "g021",
+     "g022",
+     "g027"
+    ],
+    "file": "grip3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g023",
+     "g024"
+    ],
+    "file": "grip4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g025",
+     "g028"
+    ],
+    "file": "grip5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m013"
+    ],
+    "file": "mag1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m014",
+     "m015",
+     "m017"
+    ],
+    "file": "mag2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m016",
+     "m018",
+     "m019"
+    ],
+    "file": "mag3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z013"
+    ],
+    "file": "sight1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z014"
+    ],
+    "file": "sight2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z015"
+    ],
+    "file": "sight3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z016"
+    ],
+    "file": "sight4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z017",
+     "z018"
+    ],
+    "file": "sight5.png",
+    "mask": null
+   }
+  ],
+  "Rifle": [
+   {
+    "defs": [
+     "a077",
+     "a078"
+    ],
+    "file": "acc1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a071"
+    ],
+    "file": "acc2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a072",
+     "a073"
+    ],
+    "file": "acc3.png",
+    "mask": "acc3-mask.png"
+   },
+   {
+    "defs": [
+     "a074",
+     "u066",
+     "u068",
+     "a079"
+    ],
+    "file": "acc4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a075",
+     "a076",
+     "a080"
+    ],
+    "file": "acc5.png",
+    "mask": "acc5-mask.png"
+   },
+   {
+    "defs": [
+     "b041",
+     "b042"
+    ],
+    "file": "barrel1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b043"
+    ],
+    "file": "barrel2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b044"
+    ],
+    "file": "barrel3.png",
+    "mask": "barrel3-mask.png"
+   },
+   {
+    "defs": [
+     "b045",
+     "b048"
+    ],
+    "file": "barrel4.png",
+    "mask": "barrel4-mask.png"
+   },
+   {
+    "defs": [
+     "b046",
+     "b047",
+     "u070"
+    ],
+    "file": "barrel5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f030"
+    ],
+    "file": "body1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f031"
+    ],
+    "file": "body2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f032"
+    ],
+    "file": "body3.png",
+    "mask": "body3-mask.png"
+   },
+   {
+    "defs": [
+     "f033",
+     "f034"
+    ],
+    "file": "body4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f035"
+    ],
+    "file": "body5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g043"
+    ],
+    "file": "grip1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g044"
+    ],
+    "file": "grip2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g045",
+     "g057"
+    ],
+    "file": "grip3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g046",
+     "g056"
+    ],
+    "file": "grip4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g047",
+     "g048"
+    ],
+    "file": "grip5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m032",
+     "m033"
+    ],
+    "file": "mag1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m036"
+    ],
+    "file": "mag2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m034",
+     "m035"
+    ],
+    "file": "mag3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m038",
+     "m039"
+    ],
+    "file": "mag5.png",
+    "mask": "mag5-mask.png"
+   },
+   {
+    "defs": [
+     "m037",
+     "u036"
+    ],
+    "file": "mag4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z033",
+     "z039"
+    ],
+    "file": "sight1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z034",
+     "z040"
+    ],
+    "file": "sight2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z035"
+    ],
+    "file": "sight3.png",
+    "mask": "sight3-mask.png"
+   },
+   {
+    "defs": [
+     "z036",
+     "u034"
+    ],
+    "file": "sight4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z037",
+     "u042"
+    ],
+    "file": "sight5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s021"
+    ],
+    "file": "stock1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s022"
+    ],
+    "file": "stock2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s023"
+    ],
+    "file": "stock3.png",
+    "mask": "stock3-mask.png"
+   },
+   {
+    "defs": [
+     "s024"
+    ],
+    "file": "stock4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s025"
+    ],
+    "file": "stock5.png",
+    "mask": null
+   }
+  ],
+  "Revolver": [
+   {
+    "defs": [
+     "a017",
+     "a018"
+    ],
+    "file": "acc1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a019"
+    ],
+    "file": "acc2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a020",
+     "a021",
+     "a022"
+    ],
+    "file": "acc3.png",
+    "mask": "acc3-mask.png"
+   },
+   {
+    "defs": [
+     "a023"
+    ],
+    "file": "acc4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a024",
+     "a025",
+     "a026",
+     "u009",
+     "u054"
+    ],
+    "file": "acc5.png",
+    "mask": "acc5-mask.png"
+   },
+   {
+    "defs": [
+     "b010"
+    ],
+    "file": "barrel1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b011"
+    ],
+    "file": "barrel2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b012",
+     "u010"
+    ],
+    "file": "barrel3.png",
+    "mask": "barrel3-mask.png"
+   },
+   {
+    "defs": [
+     "b013",
+     "b014"
+    ],
+    "file": "barrel4.png",
+    "mask": "barrel4-mask.png"
+   },
+   {
+    "defs": [
+     "b015",
+     "b016"
+    ],
+    "file": "barrel5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f007"
+    ],
+    "file": "body1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f008"
+    ],
+    "file": "body2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f009",
+     "f010"
+    ],
+    "file": "body3.png",
+    "mask": "body3-mask.png"
+   },
+   {
+    "defs": [
+     "f011"
+    ],
+    "file": "body4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f012"
+    ],
+    "file": "body5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g011"
+    ],
+    "file": "grip1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g012"
+    ],
+    "file": "grip2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g013",
+     "g014"
+    ],
+    "file": "grip3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g015"
+    ],
+    "file": "grip4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g016",
+     "u012"
+    ],
+    "file": "grip5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m008"
+    ],
+    "file": "mag1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m009"
+    ],
+    "file": "mag2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m010"
+    ],
+    "file": "mag3.png",
+    "mask": "mag3-mask.png"
+   },
+   {
+    "defs": [
+     "m011"
+    ],
+    "file": "mag4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m012"
+    ],
+    "file": "mag5.png",
+    "mask": "mag5-mask.png"
+   },
+   {
+    "defs": [
+     "z007"
+    ],
+    "file": "sight1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z008"
+    ],
+    "file": "sight2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z009"
+    ],
+    "file": "sight3.png",
+    "mask": "sight3-mask.png"
+   },
+   {
+    "defs": [
+     "z010",
+     "u065"
+    ],
+    "file": "sight4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z011"
+    ],
+    "file": "sight5.png",
+    "mask": null
+   }
+  ],
+  "Sniper": [
+   {
+    "defs": [
+     "a057",
+     "a065"
+    ],
+    "file": "acc1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a058",
+     "a059",
+     "a060",
+     "a066",
+     "u058"
+    ],
+    "file": "acc2.png",
+    "mask": "acc2-mask.png"
+   },
+   {
+    "defs": [
+     "a061",
+     "a062",
+     "a067"
+    ],
+    "file": "acc3.png",
+    "mask": "acc3-mask.png"
+   },
+   {
+    "defs": [
+     "a063",
+     "a068"
+    ],
+    "file": "acc4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "a064",
+     "a069"
+    ],
+    "file": "acc5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b033",
+     "b040"
+    ],
+    "file": "barrel1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b034",
+     "b035"
+    ],
+    "file": "barrel2.png",
+    "mask": "barrel2-mask.png"
+   },
+   {
+    "defs": [
+     "b036",
+     "u022"
+    ],
+    "file": "barrel3.png",
+    "mask": "barrel3-mask.png"
+   },
+   {
+    "defs": [
+     "b037",
+     "b038"
+    ],
+    "file": "barrel4.png",
+    "mask": "barrel4-mask.png"
+   },
+   {
+    "defs": [
+     "b039"
+    ],
+    "file": "barrel5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f025"
+    ],
+    "file": "body1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f028"
+    ],
+    "file": "body2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f026"
+    ],
+    "file": "body3.png",
+    "mask": "body3-mask.png"
+   },
+   {
+    "defs": [
+     "f027"
+    ],
+    "file": "body4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f029"
+    ],
+    "file": "body5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g035",
+     "g036"
+    ],
+    "file": "grip1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g037",
+     "g038"
+    ],
+    "file": "grip2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g039",
+     "g040"
+    ],
+    "file": "grip3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g041"
+    ],
+    "file": "grip4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g042",
+     "g055"
+    ],
+    "file": "grip5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m026"
+    ],
+    "file": "mag1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m029"
+    ],
+    "file": "mag2.png",
+    "mask": "mag2-mask.png"
+   },
+   {
+    "defs": [
+     "m027"
+    ],
+    "file": "mag3.png",
+    "mask": "mag3-mask.png"
+   },
+   {
+    "defs": [
+     "m028"
+    ],
+    "file": "mag4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m030",
+     "m031",
+     "u031"
+    ],
+    "file": "mag5.png",
+    "mask": "mag5-mask.png"
+   },
+   {
+    "defs": [
+     "z026"
+    ],
+    "file": "sight1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z027"
+    ],
+    "file": "sight2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z028"
+    ],
+    "file": "sight3.png",
+    "mask": "sight3-mask.png"
+   },
+   {
+    "defs": [
+     "z029",
+     "u030"
+    ],
+    "file": "sight4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z030",
+     "z031"
+    ],
+    "file": "sight5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s015"
+    ],
+    "file": "stock1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s016"
+    ],
+    "file": "stock2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s017"
+    ],
+    "file": "stock3.png",
+    "mask": "stock3-mask.png"
+   },
+   {
+    "defs": [
+     "s018"
+    ],
+    "file": "stock4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s019"
+    ],
+    "file": "stock5.png",
+    "mask": null
+   }
+  ],
+  "Launcher": [
+   {
+    "defs": [
+     "a082"
+    ],
+    "file": "acc1.png",
+    "mask": "acc1-mask.png"
+   },
+   {
+    "defs": [
+     "a083"
+    ],
+    "file": "acc2.png",
+    "mask": "acc2-mask.png"
+   },
+   {
+    "defs": [
+     "a084",
+     "a085"
+    ],
+    "file": "acc3.png",
+    "mask": "acc3-mask.png"
+   },
+   {
+    "defs": [
+     "a086"
+    ],
+    "file": "acc4.png",
+    "mask": "acc4-mask.png"
+   },
+   {
+    "defs": [
+     "a087",
+     "u039"
+    ],
+    "file": "acc5.png",
+    "mask": "acc5-mask.png"
+   },
+   {
+    "defs": [
+     "b049",
+     "b050",
+     "b051",
+     "b052",
+     "b053",
+     "u037"
+    ],
+    "file": "barrel1.png",
+    "mask": "barrel1-mask.png"
+   },
+   {
+    "defs": [
+     "b054",
+     "b055",
+     "b056",
+     "u056"
+    ],
+    "file": "barrel2.png",
+    "mask": "barrel2-mask.png"
+   },
+   {
+    "defs": [
+     "b057",
+     "b058"
+    ],
+    "file": "barrel4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f036"
+    ],
+    "file": "body1.png",
+    "mask": "body1-mask.png"
+   },
+   {
+    "defs": [
+     "f037"
+    ],
+    "file": "body3.png",
+    "mask": "body3-mask.png"
+   },
+   {
+    "defs": [
+     "f038"
+    ],
+    "file": "body5.png",
+    "mask": "body5-mask.png"
+   },
+   {
+    "defs": [
+     "g049"
+    ],
+    "file": "grip1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g050"
+    ],
+    "file": "grip2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g051",
+     "g052"
+    ],
+    "file": "grip3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "g053"
+    ],
+    "file": "grip4.png",
+    "mask": "grip4-mask.png"
+   },
+   {
+    "defs": [
+     "g054"
+    ],
+    "file": "grip5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m040"
+    ],
+    "file": "mag1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m041"
+    ],
+    "file": "mag2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m042"
+    ],
+    "file": "mag3.png",
+    "mask": "mag3-mask.png"
+   },
+   {
+    "defs": [
+     "m043"
+    ],
+    "file": "mag4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "m044"
+    ],
+    "file": "mag5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z041"
+    ],
+    "file": "sight1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z042"
+    ],
+    "file": "sight2.png",
+    "mask": "sight2-mask.png"
+   },
+   {
+    "defs": [
+     "z043"
+    ],
+    "file": "sight3.png",
+    "mask": "sight3-mask.png"
+   },
+   {
+    "defs": [
+     "z044"
+    ],
+    "file": "sight4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "z045"
+    ],
+    "file": "sight5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s026"
+    ],
+    "file": "stock2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "s027"
+    ],
+    "file": "stock3.png",
+    "mask": "stock3-mask.png"
+   },
+   {
+    "defs": [
+     "s028"
+    ],
+    "file": "stock4.png",
+    "mask": "stock4-mask.png"
+   },
+   {
+    "defs": [
+     "s029"
+    ],
+    "file": "stock5.png",
+    "mask": "stock5-mask.png"
+   }
+  ],
+  "Shield Right": [
+   {
+    "defs": [
+     "r300"
+    ],
+    "file": "A1-Base.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "r301"
+    ],
+    "file": "A2-Base.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "r302"
+    ],
+    "file": "A3-Base.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "r303"
+    ],
+    "file": "A4-Base.png",
+    "mask": null
+   }
+  ],
+  "Shield Left": [
+   {
+    "defs": [
+     "l300"
+    ],
+    "file": "B1-Base.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "l301"
+    ],
+    "file": "B2-Base.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "l302"
+    ],
+    "file": "B3-Base.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "l303"
+    ],
+    "file": "B4-Base.png",
+    "mask": null
+   }
+  ],
+  "Shield Body": [
+   {
+    "defs": [
+     "f300",
+     "f301"
+    ],
+    "file": "C1-Base.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f305",
+     "f306",
+     "f308",
+     "f309"
+    ],
+    "file": "C2-Base.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f303",
+     "f304",
+     "f307"
+    ],
+    "file": "C3-Base.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "f302"
+    ],
+    "file": "C4-Base.png",
+    "mask": null
+   }
+  ],
+  "Eridian": [
+   {
+    "defs": [
+     "b059"
+    ],
+    "file": "body1.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b067",
+     "b068",
+     "b069",
+     "b070",
+     "b071",
+     "b072",
+     "b073"
+    ],
+    "file": "body2.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b074"
+    ],
+    "file": "body3.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b060",
+     "b061",
+     "b062",
+     "b063"
+    ],
+    "file": "body4.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b064",
+     "b066"
+    ],
+    "file": "body5.png",
+    "mask": null
+   },
+   {
+    "defs": [
+     "b065"
+    ],
+    "file": "body6.png",
+    "mask": null
+   }
+  ]
+ }
+}

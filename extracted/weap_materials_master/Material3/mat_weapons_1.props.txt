@@ -1,0 +1,226 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Texture.tex_sniper_rifle_norm'
+    ReferencedTextures[1] = Texture2D'Texture.tex_sniper_rifle_light'
+    ReferencedTextures[2] = Texture2D'Texture.tex_sniper_rifle_mask'
+    ReferencedTextures[3] = Texture2D'Texture.tex_sniper_rifle_color'
+    ReferencedTextures[4] = Texture2D'Overlays.Tex_Pattern_clear'
+    ReferencedTextures[5] = TextureCube3'CubeMap.weapon_cube_Tex6'
+}
+Expressions[96] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_18'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_19'
+    Expressions[3] = MaterialExpressionScalarParameter'masters.mat_weapons_1.MaterialExpressionScalarParameter_5'
+    Expressions[5] = MaterialExpressionScalarParameter'masters.mat_weapons_1.MaterialExpressionScalarParameter_4'
+    Expressions[6] = MaterialExpressionScalarParameter'masters.mat_weapons_1.MaterialExpressionScalarParameter_3'
+    Expressions[13] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_21'
+    Expressions[14] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_16'
+    Expressions[21] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[23] = MaterialExpressionScalarParameter'masters.mat_weapons_1.MaterialExpressionScalarParameter_9'
+    Expressions[25] = MaterialExpressionVectorParameter'masters.mat_weapons_1.MaterialExpressionVectorParameter_11'
+    Expressions[26] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[28] = MaterialExpressionVectorParameter'masters.mat_weapons_1.MaterialExpressionVectorParameter_10'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[38] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[40] = MaterialExpressionVectorParameter'masters.mat_weapons_1.MaterialExpressionVectorParameter_9'
+    Expressions[42] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[45] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[53] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[56] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_12'
+    Expressions[61] = MaterialExpressionVectorParameter'masters.mat_weapons_1.MaterialExpressionVectorParameter_6'
+    Expressions[62] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[64] = MaterialExpressionScalarParameter'masters.mat_weapons_1.MaterialExpressionScalarParameter_0'
+    Expressions[66] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_11'
+    Expressions[70] = MaterialExpressionTextureSample'masters.mat_weapons_1.MaterialExpressionTextureSample_3'
+    Expressions[73] = MaterialExpressionVectorParameter'masters.mat_weapons_1.MaterialExpressionVectorParameter_8'
+    Expressions[75] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[77] = MaterialExpressionScalarParameter'masters.mat_weapons_1.MaterialExpressionScalarParameter_7'
+    Expressions[79] = MaterialExpressionVectorParameter'masters.mat_weapons_1.MaterialExpressionVectorParameter_7'
+    Expressions[83] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[84] = MaterialExpressionTextureSampleParameter2D'masters.mat_weapons_1.MaterialExpressionTextureSampleParameter2D_10'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[18] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_norm'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_color'
+        Name = Color
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_light'
+        Name = lightness
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Overlays.Tex_Pattern_clear'
+        Name = composite_overlay
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_light'
+        Name = lightness
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_light'
+        Name = lightness
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_light'
+        Name = lightness
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'Overlays.Tex_Pattern_clear'
+        Name = composite_overlay
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_mask'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'Overlays.Tex_Pattern_clear'
+        Name = metal_overlay
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_color'
+        Name = Color
+        Group = None
+    }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'Texture.tex_sniper_rifle_light'
+        Name = lightness
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=metal_spec_power, Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=composite_spec_power, Group=None }
+    CollectedScalarParameters[2] = { Value=16, Name=constant_spec_power, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 4
+        Name = composite_overlay_scale
+        Group = None
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 4
+        Name = composite_overlay_scale
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=4, Name=metal_overlay_scale, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=2, B=2, A=1 }
+        Name = composite_spec_color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=4, G=4, B=4, A=1 }
+        Name = metal_spec_color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.1, G=3.5, B=0.15, A=1 }
+        Name = Emissive_color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=5, G=3, B=1, A=1 }
+        Name = composite_color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Cube_map_color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=4, G=3, B=2, A=1 }
+        Name = metal_color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

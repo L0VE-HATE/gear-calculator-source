@@ -1,0 +1,24 @@
+﻿Found 2978 game files (61 skipped) in 258 folders at path "<Borderlands install>/WillowGame/CookedPC"
+Scanned game directory in 0.0 sec, 3678 allocs, 0.00 MBytes serialized in 0 calls.
+Loading package: Packages/weapons/weap_combat_rifle.upk Ver: 584/57 Engine: 70405 Names: 212 Exports: 97 Imports: 23 Game: 800017
+Export "gestalt_weap_combat_rifle" was found in package "Packages/weapons/weap_combat_rifle.upk"
+WARNING: Unknown class "GestaltSkeletalMeshDefinition" for object "gestalt_weap_combat_rifle"
+Found 1 object(s)
+
+The specified package(s) has no supported objects.
+
+Selected package(s):
+  Packages/weapons/weap_combat_rifle.upk
+
+Class statistics:
+    1 GestaltSkeletalMeshDefinition
+    1 MaterialInstanceConstant
+   10 Package
+    1 PhysicsAsset
+    1 PhysicsAssetInstance
+    1 RB_BodyInstance
+    1 RB_BodySetup
+   36 SkeletalMesh
+   40 SkeletalMeshSocket
+    1 StaticMesh
+    4 Texture2D
