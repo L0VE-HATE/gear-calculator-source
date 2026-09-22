@@ -1,6 +1,10 @@
 import * as THREE from './vendor/three/three.module.js';
 import { GLTFLoader } from './vendor/three/addons/GLTFLoader.js';
 import { OrbitControls } from './vendor/three/addons/OrbitControls.js';
+import { EffectComposer } from './vendor/three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from './vendor/three/addons/postprocessing/RenderPass.js';
+import { SSAOPass } from './vendor/three/addons/postprocessing/SSAOPass.js';
+import { OutputPass } from './vendor/three/addons/postprocessing/OutputPass.js';
 
 // Which real game package (models/<pkg>/*.gltf, extracted from the player's own
 // Borderlands 1 install with UModel) supplies this weapon type's visuals. Several
@@ -237,7 +241,7 @@ const NORMAL_Y = -1; // Unreal's normal maps have the green channel flipped rela
 const gameParams = {
   shadeBase: { value: 0.36 }, shadeKey: { value: 0.5 }, shadeFill: { value: 0.1 },
   detailBase: { value: 0.6 }, detailGain: { value: 1.2 },
-  specGain: { value: 0.5 }, rimGain: { value: 0.06 }, glowGain: { value: 1.3 }, saturation: { value: 1.3 },
+  specGain: { value: 0.28 }, rimGain: { value: 0.045 }, glowGain: { value: 1.3 }, saturation: { value: 1.25 },
 };
 
 const GAME_SHADER_HEADER = `
@@ -727,7 +731,7 @@ function ensureLive(container) {
     if (!liveTimer) {
       liveTimer = setInterval(() => {
         live.controls.update();
-        live.renderer.render(live.scene, live.camera);
+        live.composer.render();
       }, 33);
     }
     return live;
@@ -753,19 +757,36 @@ function ensureLive(container) {
   const group = new THREE.Group();
   scene.add(group);
 
+  // Cheap fake ambient occlusion (darkens tight crevices - where the barrel meets the
+  // receiver, around screws/seams) - the toon shader above has no concept of this on its
+  // own (just 2 fixed lights + a flat color), which was part of why the render read flatter/
+  // more "cartoony" than intended. Tuned small: our models are a few units across (see the
+  // OrbitControls min/max distance above), far smaller than SSAOPass's real-world-meter
+  // defaults, so radius/min/maxDistance are all scaled way down from stock.
+  const composer = new EffectComposer(renderer);
+  composer.addPass(new RenderPass(scene, camera));
+  const ssaoPass = new SSAOPass(scene, camera, container.clientWidth, container.clientHeight);
+  ssaoPass.kernelRadius = 0.15;
+  ssaoPass.minDistance = 0.0005;
+  ssaoPass.maxDistance = 0.03;
+  composer.addPass(ssaoPass);
+  composer.addPass(new OutputPass());
+
   new ResizeObserver(() => {
     if (!container.clientWidth || !container.clientHeight) return;
     camera.aspect = container.clientWidth / container.clientHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(container.clientWidth, container.clientHeight);
+    composer.setSize(container.clientWidth, container.clientHeight);
+    ssaoPass.setSize(container.clientWidth, container.clientHeight);
   }).observe(container);
 
-  live = { scene, camera, renderer, controls, group, container };
+  live = { scene, camera, renderer, controls, group, container, composer };
 
   if (liveTimer) clearInterval(liveTimer);
   liveTimer = setInterval(() => {
     controls.update();
-    renderer.render(scene, camera);
+    composer.render();
   }, 33);
 
   return live;

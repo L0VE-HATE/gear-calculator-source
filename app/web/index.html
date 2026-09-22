@@ -153,32 +153,32 @@ button.primary{ background:linear-gradient(180deg,#f0a52a,#c97a17); color:#2a1a0
    colour already says the rarity. */
 .card-top{ display:flex; align-items:center; gap:8px; padding:6px 10px;
   background:#3a89b4; border-bottom:1px solid var(--hudline);
-  font-family:var(--card-font); font-size:11px; letter-spacing:1.6px; text-transform:uppercase; color:#e8f5ff }
+  font-family:var(--card-font); font-size:12px; letter-spacing:1.6px; text-transform:uppercase; color:#e8f5ff }
 .card-top b{ color:#fff; font-family:var(--mono); font-variant-numeric:tabular-nums }
-.card-name{ font-family:var(--card-font); font-weight:700; font-size:clamp(16px,2.4vw,21px); line-height:1.15; text-transform:uppercase;
+.card-name{ font-family:var(--card-font); font-weight:700; font-size:clamp(17px,2.5vw,22px); line-height:1.15; text-transform:uppercase;
   color:var(--rare,#fff); margin:9px 12px 1px; text-wrap:balance }
-.card-mfg{ font-family:var(--card-font); font-size:11px; letter-spacing:1.6px; text-transform:uppercase; color:var(--huddim); margin:0 12px 8px }
-.card-viewport{ position:relative; height:150px; margin:0 12px 8px; border-radius:4px; overflow:hidden; cursor:pointer }
+.card-mfg{ font-family:var(--card-font); font-size:12px; letter-spacing:1.6px; text-transform:uppercase; color:var(--huddim); margin:0 12px 8px }
+.card-viewport{ position:relative; height:132px; margin:0 12px 8px; border-radius:4px; overflow:hidden; cursor:pointer }
 .card-viewport img{ display:block; width:100%; height:100%; object-fit:contain }
-.card-viewport .v3d-open{ position:absolute; right:6px; bottom:6px; font-family:var(--card-font); font-size:9.5px; letter-spacing:.8px; text-transform:uppercase; color:var(--huddim); background:rgba(0,0,0,.45); padding:3px 7px; border-radius:3px; pointer-events:none }
-.v3d-empty{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:var(--card-font); font-size:11px; letter-spacing:1px; text-transform:uppercase; color:var(--huddim) }
+.card-viewport .v3d-open{ position:absolute; right:6px; bottom:6px; font-family:var(--card-font); font-size:10.5px; letter-spacing:.8px; text-transform:uppercase; color:var(--huddim); background:rgba(0,0,0,.45); padding:3px 7px; border-radius:3px; pointer-events:none }
+.v3d-empty{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:var(--card-font); font-size:12px; letter-spacing:1px; text-transform:uppercase; color:var(--huddim) }
 .v3d-live-wrap{ position:relative; height:420px; border:1px solid var(--hudline); border-radius:4px; background:radial-gradient(ellipse at center,#5f89a8,#2c4c63); overflow:hidden; margin-bottom:10px }
 .v3d-live-wrap canvas{ display:block; width:100%!important; height:100%!important; cursor:grab }
 .card-body{ display:flex; gap:10px; padding:0 12px }
 .card-stats{ flex:1 1 auto; min-width:0 }
 .srow{ display:flex; align-items:center; gap:8px; padding:2.5px 0 }
 .srow svg{ width:15px; height:15px; flex:none; color:var(--huddim) }
-.srow span{ flex:1; font-family:var(--card-font); font-size:12px; letter-spacing:.6px; text-transform:uppercase; color:var(--huddim) }
-.srow b{ font-family:var(--mono); font-size:14.5px; font-variant-numeric:tabular-nums; color:var(--hudink) }
+.srow span{ flex:1; font-family:var(--card-font); font-size:13px; letter-spacing:.6px; text-transform:uppercase; color:var(--huddim) }
+.srow b{ font-family:var(--mono); font-size:16px; font-variant-numeric:tabular-nums; color:var(--hudink) }
 .card-side{ flex:0 0 auto; width:92px; display:flex; flex-direction:column; align-items:center; gap:7px }
 /* Real card shows the manufacturer mark as plain bold text/art with no box or border at
    all - just sitting on the card's own background, closer to a watermark than a UI chip. */
 .mplate{ width:100%; min-height:22px; text-align:center;
   display:flex; align-items:center; justify-content:center;
-  font-family:var(--card-font); font-size:12px; font-weight:700; letter-spacing:.6px; line-height:1.15; text-transform:uppercase;
+  font-family:var(--card-font); font-size:13px; font-weight:700; letter-spacing:.6px; line-height:1.15; text-transform:uppercase;
   color:#fff }
 .mplate img{ max-width:100%; max-height:26px; object-fit:contain; opacity:.92; filter:drop-shadow(0 1px 2px rgba(0,0,0,.6)) }
-.elem{ width:100%; text-align:center; font-family:var(--card-font); font-size:10.5px; letter-spacing:1px; text-transform:uppercase;
+.elem{ width:100%; text-align:center; font-family:var(--card-font); font-size:11.5px; letter-spacing:1px; text-transform:uppercase;
   padding:3px 2px; border-radius:3px; color:#f4f8ff; font-weight:700; text-shadow:0 1px 2px rgba(0,0,0,.6);
   display:flex; align-items:center; justify-content:center; gap:4px }
 .elem img{ width:30px; height:30px; object-fit:contain; vertical-align:middle; filter:drop-shadow(0 1px 2px rgba(0,0,0,.5)) }
@@ -208,17 +208,17 @@ body[data-gear-kind="shield"] .ammo{ display:none }
 body[data-gear-kind="shield"] .cornercluster .mascot{ transform:translate(3px,-1px) }
 body[data-gear-kind="shield"] .gk-weapon{ display:none }
 body:not([data-gear-kind="shield"]) .gk-shield{ display:none }
-.flavor{ color:#ff6b5e; font-size:12px; line-height:1.4; margin:9px 12px 0; font-style:italic; white-space:pre-line }
+.flavor{ color:#ff6b5e; font-size:13px; line-height:1.4; margin:9px 12px 0; font-style:italic; white-space:pre-line }
 /* Real card leaves ordinary numeric stat lines plain white - colour there is reserved for
    actual special-ability text (the elemental-proc description, handled by .flavor below),
    not a bonus/penalty scale. .neg is kept on the <li> (still useful data) but no longer
    painted a different colour. */
-.mods-row{ display:flex; gap:10px; align-items:flex-start; margin-top:22px; padding:0 12px }
-.mods{ flex:1 1 auto; min-width:0; list-style:none; margin:0; padding:0; font-family:var(--mono); font-size:12px; line-height:1.65; color:#eef6ff }
-.mods li.fx{ color:#ff6b5e; font-family:var(--body); font-size:12px; line-height:1.4; margin-top:3px }   /* special-ability text: same red the card uses for it */
-.card-bot{ display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:10px; padding:7px 12px 9px;
-  border-top:1px solid rgba(255,255,255,.12); font-family:var(--mono); font-size:13px; color:#ffd76a }
-.card-bot .lvl{ color:var(--huddim); font-size:11.5px }
+.mods-row{ display:flex; gap:10px; align-items:flex-start; margin-top:16px; padding:0 12px }
+.mods{ flex:1 1 auto; min-width:0; list-style:none; margin:0; padding:0; font-family:var(--mono); font-size:13px; line-height:1.65; color:#eef6ff }
+.mods li.fx{ color:#ff6b5e; font-family:var(--body); font-size:13px; line-height:1.4; margin-top:3px }   /* special-ability text: same red the card uses for it */
+.card-bot{ display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:8px; padding:6px 12px 7px;
+  border-top:1px solid rgba(255,255,255,.12); font-family:var(--mono); font-size:14px; color:#ffd76a }
+.card-bot .lvl{ color:var(--huddim); font-size:12.5px }
 /* Real card shows cash in a small boxed, green digital-readout style rather than plain text. */
 #c_cost{ background:#0d2b12; border:1px solid #2f7d3a; color:#7ee081; padding:3px 8px;
   border-radius:3px; font-weight:600; letter-spacing:.5px }
@@ -401,7 +401,7 @@ a{ color:var(--amber) }
       <div class="note" id="myBuildsHead" style="margin-top:0">My Builds <span style="color:var(--dim)">— saved parts combos, loaded exactly as-is (any weapon type; switches type for you).</span></div>
       <div class="gallery" id="myBuilds"></div>
 
-      <div class="note" style="margin-top:10px">Save File Armory <span style="color:var(--dim)">— 118 legendaries/uniques decoded straight from a real Borderlands 1 save, signature parts and all. Any weapon type; switches type for you.</span></div>
+      <div class="note" style="margin-top:10px">Save File Armory <span style="color:var(--dim)">— 118 legendaries/uniques decoded straight from a real Borderlands 1 save (the Legend/Pearl Unique List), signature parts and all. Any weapon type; switches type for you.</span></div>
       <div class="armory-search">
         <input type="text" id="saveSearch" placeholder="Search name, type or manufacturer...">
         <span id="saveCount" class="armory-count"></span>
@@ -565,9 +565,12 @@ const MANU_LOGO = { Dahl:'Dahl', Torgue:'Torgue', Maliwan:'Maliwan', Hyperion:'H
 // real weapon silhouettes: 189=combat rifle (carry-handle AR, bandolier), 190=sniper rifle
 // (scoped rifle w/ sling - 250 is a byte-identical duplicate shape), 191=grenade launcher
 // (flared break-action muzzle), 239=revolver (six-shooter cylinder). No matching shape was
-// found for Support MG, Rocket Launcher, or any Eridian type - those fall back to the generic
-// mascot rather than a guessed one. Repeater/Machine Pistol still share the one pistol shape
-// (236) - no second non-revolver handgun claptrap turned up in the full sheet either.
+// found for Support MG or Rocket Launcher - those fall back to the generic mascot rather than a
+// guessed one. Repeater/Machine Pistol still share the one pistol shape (236) - no second
+// non-revolver handgun claptrap turned up in the full sheet either. Eridian's own claptrap
+// (Duncan's WeaponCard_claptrapEridian class) WAS already extracted (vendor/duncan/ui/
+// claptrapEridian.png) but never copied into vendor/uiassets/mascots/ or wired into
+// MASCOT_ICON below - fixed 2026-09-22, all 5 Eridian types now use it.
 //
 // Support MG and Rocket Launcher aren't actually unmapped gaps, though - DuncanFogg's original
 // Gear Calculator SWF (gearcalc.card.CardFactory.resolveClaptrap(), recovered via FFDec) shows
@@ -580,6 +583,8 @@ const MASCOT_ICON = {
   sniper_rifle:'sniper', sniper_rifle_semiauto:'sniper',
   combat_shotgun:'shotgun', assault_shotgun:'shotgun',
   patrol_smg:'smg', grenade_launcher:'grenade_launcher', rocket_launcher:'grenade_launcher',
+  eridian_cannon:'eridian', eridian_blaster:'eridian', eridian_thunderstorm:'eridian',
+  eridian_lightning:'eridian', eridian_railgun:'eridian',
 };
 // Duncan's own WeaponCard_claptrapShield embedded PNG, extracted the same FFDec way as every
 // other mascot above - the one shield-specific claptrap in his SWF.
@@ -1053,17 +1058,7 @@ async function boot(){
   $('saveBtn').addEventListener('click', saveFile);
   $('importBtn').addEventListener('click', importAnyCode);
 
-  $('foot').innerHTML = 'Parts come from WillowTree# 2.4.0\'s <code>PartsDb.txt</code>; the stat maths is WillowTree#\'s own code: ' +
-    'damage = <code>0.8 &times; typeMultiplier &times; ((level+2)<sup>1.3</sup> + 9)</code> scaled by <code>(1+bonuses)/(1+penalties)</code>, ' +
-    'rarity = weapon-type base rarity plus every part\'s rarity (a rarity-50 part outside the Accessory/Material/Prefix/Title slots counts as 5, same correction WillowTree makes), ' +
-    'and a weapon\'s level goes into the file as-is (level 0 means "work it out from the Item Grade\'s quality table", which is how a normal drop gets its level). ' +
-    'Parts marked \u2605 are unique/named-weapon parts - the same ones WillowTree lists under UniqueParts, so a Clipper or a Tsunami can be built exactly. ' +
-    '<b>Sanity Check</b> now reflects what the game actually enforces on load, not what WillowTree\'s own dropdowns happen to offer: every Body/Grip/mag/Barrel/Sight/Stock/Action/Accessory slot is just a generic part-object reference, the same class no matter which weapon type\'s data folder it was filed under, so the game never checks that a part "belongs" to the type you\'re building. Building through the dropdowns above always shows <b>NATIVE BUILD</b>, because they only ever offer this type\'s own parts. Pasting or loading a real weapon can also show <b>CROSS-TYPE PARTS</b> - every part is real and loads with its real stats, it\'s just native to a different type (a Repeater Pistol Sight forced onto a Machine Pistol, say) - which loads and fires fine in-game; the only real risk there is cosmetic, a mesh not quite attaching to the right socket. <b>UNKNOWN PART</b> is the one actual failure case: a part id this database has no record of anywhere, which is what a mistyped path or an item-exclusive hardcoded part looks like. ' +
-    '<b>Drop table</b> is separate and purely informational: whether that manufacturer actually rolls this weapon type in normal play. Material never has to match the manufacturer - the game allows any material on any weapon, it just changes the skin.<br><br>' +
-    '<b>Cross-checked against Lootlemon’s BL1 database:</b> fixed "S&amp;S Munitions" and "Gearbox" showing as raw, mangled manufacturer tokens, fixed a "Torgue" grip-manufacturer typo on the Patrol SMG, corrected the Violence’s rarity value (it was tagged well below Legendary) and added its missing red text "Death will reign.", and filled in the red text on Jackal, Nemesis, Bessie, Serpens, Stalker, Tsunami, Undertaker and Aries, none of which had it before. ' +
-    'Also borrowed a few things from how Lootlemon presents its own item pages: the element badge carries an icon instead of relying on colour alone, and every slot lays out its options as tiles with what each one actually does spelled out - green for a buff, red for a drawback - the same way Lootlemon\'s own Parts tab does, so you can browse a slot instead of reading option names blind in a dropdown.<br><br>' +
-    '<b>Save File Armory:</b> the 118 entries in that search list were decoded directly out of a real Borderlands 1 save (Save0009.sav), not typed in by hand. Its "currently carried" weapons turned out to live in a separate DLC/Bank block near the end of the file rather than the save\'s main weapon list, located the same way WillowTree#\'s own original source does it - by scanning for a fixed byte marker, since even WillowTree#\'s authors never fully reverse-engineered the section before it. Every one of the 118 loads its full, correct part list exactly like a My Builds entry; a small number carry one or two truly unique/DLC parts (an odd barrel or material tied only to that specific item) that have no dropdown of their own, and Import will say so rather than pretend they loaded. Eight more weapons from the save (elemental Eridian rifles from the Secret Armory of General Knoxx DLC) use a weapon type this calculator doesn\'t model yet, so they were left out of the list rather than shown broken.<br><br>' +
-    '<b>Cross-type parts:</b> Machine Pistol has no Sight/Action/Accessory data of its own at all - by design, it always uses Repeater Pistol\'s, which is why the Vengeance (a Vladof Machine Pistol wearing a Repeater Pistol Sight, Action and Accessory) has always loaded here as a perfectly ordinary <b>NATIVE BUILD</b>; same story for Support Machine Gun borrowing Combat Rifle\'s Body/Grip/Stock/Barrel (Ogre, Revolution, Bastard, Serpens, The Chopper...) - those aren\'t hacks, they\'re just how those two type pairs have always been defined in vanilla loot. The actual gap was one level down: nearly every OTHER numbered id (a plain "body1", "barrel5", "sight3"...) is reused independently by nearly every weapon type with its own, different stats, so a build that forced a genuinely unrelated part into a slot - one of those two pairs aside - used to get silently swapped for whatever same-named part was native to the type you had open, with different numbers, or reported as "missing" outright, even when it was a completely real, working item. Import (and every Save Armory entry, which loads the same way) now matches on the exact path the file itself used - not just the trailing id - so a genuine cross-type part resolves to its one real object with its real stats no matter which two types are involved; the Sanity Check badge calls that out as <b>CROSS-TYPE PARTS</b>. Only a part id that isn\'t anywhere in this database under that exact path at all - a typo, or a part hardcoded to one specific item and never shipped in the general PartsDb - is reported as missing now.';
+  $('foot').innerHTML = "Parts come from WillowTree# 2.4.0's <code>PartsDb.txt</code>; the stat maths is WillowTree#'s own code.";
 
   renderMyBuilds();
   renderSaveArmory();
