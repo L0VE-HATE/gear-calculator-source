@@ -1114,7 +1114,7 @@ function boostPool(){
 // Every part the Title / Prefix dropdown can resolve for this weapon type (its own + the boosts).
 function titleBag(tid){
   const out = {}; for(const [pid, e] of Object.entries(boostPool().title)) out[pid] = e.p;
-  return Object.assign(out, partsOf(tid,'Title'));
+  return Object.assign(out, G.sharedTitles || {}, partsOf(tid,'Title'));
 }
 function prefixBag(tid){
   const b = boostPool(), out = {};
@@ -1125,12 +1125,13 @@ function prefixBag(tid){
 // The folder a part really lives in - a boost Title sitting in the Prefix slot keeps its own
 // ".Title." path in the exported code, exactly as the game's item files do.
 function partCat(slot, p){
+  if(p && p.dir) return p.dir;   // real folder that isn't the slot's own name (Prefix_Tech, Title_Tech, CustomMaterials...)
   return (slot==='Prefix' || slot==='Title') && BOOST && BOOST.origin.has(p) ? BOOST.origin.get(p) : slot;
 }
 // Boost parts to list under "Boosts from other weapon types" for a slot: everything not already
 // in that weapon type's own list for the slot.
 function boostEntriesFor(slot, tid){
-  const b = boostPool(), native = slot==='Title' ? partsOf(tid,'Title') : Object.assign({}, G.sharedPrefixes, partsOf(tid,'Prefix'));
+  const b = boostPool(), native = slot==='Title' ? Object.assign({}, G.sharedTitles || {}, partsOf(tid,'Title')) : Object.assign({}, G.sharedPrefixes, partsOf(tid,'Prefix'));
   const entries = [];
   const pools = slot==='Title' ? [b.title] : [b.prefix, b.title];
   for(const pool of pools) for(const [pid, e] of Object.entries(pool)) if(!native[pid]) entries.push([pid, e.p, e.home]);
@@ -1184,12 +1185,16 @@ function findPartAnywhere(cat, pid, srcHint){
     }
     return null;
   }
+  // A part matches by its stored src, by its real folder when that isn't the slot's own name
+  // (dir: gd_weap_names_shared.Prefix_Tech, ...CustomMaterials), or by an identical duplicate path
+  // PartsDb also lists it under (alt: Knoxx's Gold's title in both dlc3_ and dlc4_ UniqueParts).
+  const at = p => p && (p.src === srcHint || (p.dir && p.src + '.' + p.dir === srcHint) || (p.alt || []).includes(srcHint));
   const nativeBag = bagOf(tid);
-  if(nativeBag[pid] && nativeBag[pid].src === srcHint) return {p:nativeBag[pid], native:true, homeTid:tid};
+  if(at(nativeBag[pid])) return {p:nativeBag[pid], native:true, homeTid:tid};
   for(const tid2 of Object.keys(G.types)){
     if(tid2 === tid) continue;
     const bag = bagOf(tid2);
-    if(bag[pid] && bag[pid].src === srcHint) return {p:bag[pid], native:false, homeTid:tid2};
+    if(at(bag[pid])) return {p:bag[pid], native:false, homeTid:tid2};
   }
   return null;   // the exact object this path names isn't in this database under any type
 }
@@ -1215,7 +1220,9 @@ function dedupeParts(parts, aliasOut){
     // Nameless parts that do not collide on label (Eridian body2..body6 - same stats, different
     // pid, never share a cleaned label) still fall through untouched, same as before.
     const label = p.name || cleanPid(pid);
-    const key = label + ' ' + JSON.stringify(p);
+    // Custom-gun paints (Gun Pack 1-4) share identical stats but are separate game objects, and
+    // nothing in the extracted data shows they look the same - keep every one pickable.
+    const key = label + ' ' + JSON.stringify(p) + (p.dir === 'CustomMaterials' ? pid : '');
     if(seen.has(key)){ if(aliasOut) aliasOut[pid] = seen.get(key); continue; }   // hidden alias -> the pid that stands in for it
     seen.set(key, pid);
     out[pid] = p;
@@ -1301,6 +1308,13 @@ function fill(sel, parts, {none=false, sortRarity=true, labelFn=null, sortByLabe
 // shown bare in a plain dropdown with no weapon card around it for context, it just reads as
 // noise (e.g. the old label for Material_Dahl_2 was literally "Material_Dahl_2  -   U").
 function materialLabel(pid, p){
+  // gd_weap_shared_materialparts.CustomMaterials: paints of specific custom guns (Gun Pack, the BSG
+  // golden-chest guns) - "GunPack" is not a manufacturer and its trailing number is not a tier.
+  if(p.dir === 'CustomMaterials'){
+    const m = /^Material_GunPack_(\d)$/.exec(pid);
+    if(m) return 'Gun Pack paint ' + m[1];
+    return pid.replace(/^Material_/, '').replace(/_BSG$/, '').replace(/_/g, ' ').replace(/([a-z])([A-Z])/g, '$1 $2') + ' paint (BSG gun)';
+  }
   if(!p.uniq){
     const tier = /^Material_([A-Za-z]+)_(\d)(_starter)?$/.exec(pid);
     if(tier){
@@ -1373,7 +1387,7 @@ function onType(updatePicture = true){
 
   for(const s of SLOTS) fill($('f_'+s), dedupeParts(partsOf(tid,s)), {none:true});
   for(const s of POOL_SLOTS) groupOffPool($('f_'+s), t, s);
-  fill($('f_Title'), dedupeParts(partsOf(tid,'Title')), {none:true, colorFn: partColor});
+  fill($('f_Title'), dedupeParts(Object.assign({}, G.sharedTitles || {}, partsOf(tid,'Title'))), {none:true, colorFn: partColor});
   fill($('f_Prefix'), dedupeParts(Object.assign({}, G.sharedPrefixes, partsOf(tid,'Prefix'))), {none:true, colorFn: partColor});
   addBoostGroup($('f_Title'), boostEntriesFor('Title', tid));     // boost titles/prefixes from every other weapon type
   addBoostGroup($('f_Prefix'), boostEntriesFor('Prefix', tid));
@@ -1575,7 +1589,7 @@ function pick(id, sel){
     const bag = cat==='Material' ? G.materials : cat==='Prefix' ? prefixBag(tid) : cat==='Title' ? titleBag(tid) : partsOf(tid,cat);
     p = (FOREIGN[cat] && FOREIGN[cat][sel.value]) || bag[sel.value];
     if(p) token = p.uniq ? (p.src + '.' + sel.value)
-                         : (p.src + '.' + (cat==='Material' ? 'ManufacturerMaterials' : partCat(cat, p)) + '.' + sel.value);
+                         : (p.src + '.' + (cat==='Material' && !p.dir ? 'ManufacturerMaterials' : partCat(cat, p)) + '.' + sel.value);
   }
   if(p){
     const bits = [];
@@ -1735,7 +1749,7 @@ function selectedParts(){
   const tid = $('f_type').value;
   const out = {};
   for(const s of SLOTS){ const v=$('f_'+s).value; out[s] = (v==='__none__') ? null : {id:v, p:(FOREIGN[s]&&FOREIGN[s][v]) || partsOf(tid,s)[v], cat:s}; }
-  const mat=$('f_Material').value; out.Material = mat==='__none__' ? null : {id:mat, p:G.materials[mat], cat:'ManufacturerMaterials'};
+  const mat=$('f_Material').value; out.Material = mat==='__none__' ? null : {id:mat, p:(FOREIGN.Material && FOREIGN.Material[mat]) || G.materials[mat], cat:'ManufacturerMaterials'};
   const pfxBag = prefixBag(tid);
   const pfx=$('f_Prefix').value; out.Prefix = pfx==='__none__' ? null : {id:pfx, p:(FOREIGN.Prefix&&FOREIGN.Prefix[pfx])||pfxBag[pfx], cat:'Prefix'};
   const ttl=$('f_Title').value; out.Title = ttl==='__none__' ? null : {id:ttl, p:(FOREIGN.Title&&FOREIGN.Title[ttl])||titleBag(tid)[ttl], cat:'Title'};
@@ -2454,7 +2468,7 @@ function calc(updatePicture = true){
   const boostUsed = [];
   for(const k of ['Prefix','Title']){
     const s = sel[k]; if(!s || !s.p || !BOOST || !BOOST.origin.has(s.p)) continue;
-    const ownList = k==='Title' ? partsOf(tid,'Title') : Object.assign({}, G.sharedPrefixes, partsOf(tid,'Prefix'));
+    const ownList = k==='Title' ? Object.assign({}, G.sharedTitles || {}, partsOf(tid,'Title')) : Object.assign({}, G.sharedPrefixes, partsOf(tid,'Prefix'));
     if(ownList[s.id] !== s.p) boostUsed.push((SLOT_LABEL[k]||k) + ' (' + (s.p.name || s.id) + ')');
   }
   // ---- Item Grade vs UniqueParts consistency ----
@@ -2522,7 +2536,7 @@ function calc(updatePicture = true){
   // ---- code ----
   const line = k => { const s = sel[k]; if(!s || !s.p) return 'None';
     return s.p.uniq ? (s.p.src + '.' + s.id)
-                    : (s.p.src + '.' + (k==='Material' ? 'ManufacturerMaterials' : partCat(k, s.p)) + '.' + s.id); };
+                    : (s.p.src + '.' + (k==='Material' && !s.p.dir ? 'ManufacturerMaterials' : partCat(k, s.p)) + '.' + s.id); };
   const out = [
     $('f_grade').value,
     'gd_manufacturers.Manufacturers.' + manuTok,
@@ -2580,7 +2594,7 @@ function importCode(){
   onType();
   if([...$('f_grade').options].some(o=>o.value===grade)) $('f_grade').value = grade;
 
-  const missing = [], crossType = [];
+  const missing = [], crossType = [], slotSwap = [];
   const mtok = tail(lines[1]);
   if([...$('f_manu').options].some(o=>o.value===mtok)) $('f_manu').value = mtok; else if(mtok!=='None') missing.push('Manufacturer ' + mtok);
 
@@ -2619,6 +2633,21 @@ function importCode(){
     // the dropdown - that option can be a completely different part that just shares the id.
     let found = null;
     for(const srcHint of srcCandidates){ found = findPartAnywhere(cat, id, srcHint); if(found) break; }
+    // A Title part sitting in the Material line (both real Bone Shredder exports store it this way):
+    // keep that exact part, and its ".Title." folder so the export writes the same line back.
+    if(!found && cat === 'Material' && segs[segs.length - 2] === 'Title'){
+      const t = findPartAnywhere('Title', id, segs.slice(0, -2).join('.')) || findPartAnywhere('Title', id, segs.slice(0, -1).join('.'));
+      if(t){
+        FOREIGN.Material = FOREIGN.Material || {};
+        FOREIGN.Material[id] = Object.assign({}, t.p, {dir:'Title'});
+        const existing = [...sel.options].find(o => o.value === id);
+        const label = '⇄ ' + id + (t.p.name ? '  -  ' + t.p.name : '') + '  (a Title part in the Material line)';
+        if(existing) existing.textContent = label; else sel.appendChild(new Option(label, id));
+        sel.value = id;
+        slotSwap.push('Material line holds the Title part ' + id + (t.p.name ? ' (' + t.p.name + ')' : ''));
+        continue;
+      }
+    }
     if(found){
       if(found.native){
         sel.value = id;   // genuinely this type's own part - no need to touch FOREIGN/options
@@ -2662,6 +2691,9 @@ function importCode(){
   if(crossType.length){
     note = 'Loaded, including ' + crossType.length + ' part' + (crossType.length>1?'s':'') + ' native to a different weapon type: ' + crossType.join('; ') +
       '. These are real parts loaded with their real stats, not the current type\'s own dropdown offering - see the Sanity Check badge for why that still loads and fires fine.';
+  }
+  if(slotSwap.length){
+    note += ' ' + slotSwap.join('; ') + ' - loaded as that exact part, and written back to the same line on export.';
   }
   if(missing.length){
     note += ' These don\'t exist anywhere in this database and were left empty: ' + missing.join(', ') + ' (a hand-typed path, or a part hardcoded to one specific item that was never in the general PartsDb).';
