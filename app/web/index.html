@@ -1723,6 +1723,18 @@ function ratioScale(stat, parts){   // the part of a stat that isn't a flat add
     const v = pt.st[stat] - ((pt.fl&&pt.fl[stat])||0); if(!v) continue; if(v>0) b+=v; else p-=v; }
   return (1+b)/(1+p);
 }
+// The game's sell value: BaseCashValueModifier (the item type's, e.g. 50 for a Patrol SMG, 60 for
+// shields) x 1.16^level x every part's CashValueModifier, computed in 32-bit floats and truncated.
+// The 1.16^level curve is DuncanFogg's (Weapon.as/Shield.as calculateBase); the level includes the
+// parts' WeaponLevel bonus (Torgue tier-3 material +2). Checked against a real in-game price: a
+// level-44 TD540 Steel Bruiser (Torgue_3 -> 46) sells for $734,785 in game and here. Quality is not
+// a factor. Shields use the same rule but haven't been checked against a real shield price yet.
+const SHIELD_BASE_CASH = 60;   // gd_shields.A_Item.Item_Shield BaseCashValueModifier
+function gameCashValue(baseMod, level, parts){
+  const f = Math.fround;
+  let mult = f(1); for(const p of parts) mult = f(mult * f(num(p && p.cash, 1)));
+  return Math.max(0, Math.floor(f(f(baseMod * f(Math.pow(f(1.16), level))) * mult)));
+}
 function flat(stat, parts){ let s=0; for(const pt of parts){ const v = pt && pt.fl && pt.fl[stat]; if(v) s+=v; } return s; }
 function num(v, d){ const n = Number(v); return isFinite(n) ? n : d; }
 
@@ -1975,7 +1987,6 @@ function calcShield(){
   }
 
   const capacity0 = Math.pow(effLevel, 1.7) + 49;
-  const cost0 = Math.round(Math.pow(1.16, effLevel) * 10) / 10;
   const capacity = calcAttr('Capacity', parts, capacity0, capacity0);
   const rechargeRate = calcAttr('Recharge Rate', parts, 0, capacity0);
   const rechargeDelay = calcAttr('Recharge Delay', parts, 0, capacity0);
@@ -1995,8 +2006,7 @@ function calcShield(){
   let rarity = 0;
   for(const p of parts){ let r = num(p.rarity,0); if(r===50) r=5; rarity += r; }
   const tier = rarityTier(rarity);
-  let cashMult = 1; for(const p of parts) cashMult *= num(p.cash,1);
-  const cost = Math.round(cost0 * cashMult * (1 + quality*0.1));
+  const cost = gameCashValue(SHIELD_BASE_CASH, effLevel, parts);
 
   const nm = x => (x && x.p && x.p.name) ? x.p.name.trim() : '';
   const autoName = [nm(sel.Prefix), nm(sel.Title)].filter(Boolean).join(' ').trim();
@@ -2068,7 +2078,7 @@ function calcShield(){
   $('techTable').innerHTML = html;
   $('techHead').textContent = name;
   $('techPanel').style.display = $('f_techstats').checked ? '' : 'none';
-  $('techNote').textContent = 'Cost is the same kind of estimate the weapon side uses - no shipped cash-curve table to calibrate against.';
+  $('techNote').textContent = 'Cost uses the game’s sell-value rule (60 x 1.16^level x every part’s cost multiplier) - the same rule that matches real weapon prices exactly; not yet checked against a real shield price.';
 
   // ---- code: WillowTree#'s real Item Editor clipboard format (verified from the official
   // WillowTree# source, Plugins/ucGears.cs + Inventory/InventoryEntry.cs - a generic 9-part-line
@@ -2270,15 +2280,8 @@ function calc(updatePicture = true){
   });
   const tier = rarityTier(rarity);
 
-  // ---- cost (the game's own cash curve isn't in the data - this is the one estimate) ----
-  // Level scaling uses the same (level+2)^1.3 exponent as the damage formula above, since
-  // that one IS confirmed against WillowTree's real source - a 2.1 exponent here (the old
-  // value) was pure guesswork and could overshoot a real in-game price by 20x on a build
-  // with several parts, each compounding the cash multiplier. This is closer, matched
-  // against a real screenshot, but still an estimate: no cash-curve table ships in the
-  // extracted part data, so there's nothing authoritative to calibrate the base/mult against.
-  let cashMult = 1; for(const p of parts) cashMult *= num(p.cash, 1);
-  const cost = Math.round(num(base.BaseCashValueModifier,50) * cashMult * Math.pow(effLevel+2, 1.3) * (1 + quality*0.1));
+  // ---- cost ----
+  const cost = gameCashValue(num(base.BaseCashValueModifier, 50), effLevel + flat('WeaponLevel', parts), parts);
 
   // ---- name (WillowTree#: body + model number + material, then prefix + title) ----
   const nm = x => (x && x.p && x.p.name) ? x.p.name.trim() : '';
@@ -2413,7 +2416,7 @@ function calc(updatePicture = true){
   $('techTable').innerHTML = html;
   $('techHead').textContent = name;
   $('techPanel').style.display = $('f_techstats').checked ? '' : 'none';
-  $('techNote').textContent = 'These are WillowTree#’s numbers: every stat stacks as (1 + all bonuses) / (1 + all penalties), which is why a part that says -6 doesn’t wipe the stat out. Cost is the only estimate - the game’s cash curve lives in a table that isn’t shipped with the part data.';
+  $('techNote').textContent = 'These are WillowTree#’s numbers: every stat stacks as (1 + all bonuses) / (1 + all penalties), which is why a part that says -6 doesn’t wipe the stat out. Cost is the game’s sell-value rule (type base x 1.16^level x every part’s cost multiplier; the Torgue tier-3 material’s +2 level counts) - it matches a real in-game price to the dollar.';
 
   // ---- checks ----
   const gsel = G.grades[$('f_grade').value];
